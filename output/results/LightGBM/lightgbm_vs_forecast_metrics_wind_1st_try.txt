@@ -1,0 +1,12 @@
+LightGBM vs Day-Ahead Forecast — Metrics (Wind Generation)
+======================================================================
+
+           All Test Data                               First 24 Hours                             
+                LightGBM    Forecast Skill_vs_Forecast       LightGBM   Forecast Skill_vs_Forecast
+MSE          8131862.170  331467.623               NaN    3222317.142  11082.958               NaN
+RMSE            2851.642     575.732               NaN       1795.081    105.276               NaN
+MAE             2298.968     390.417               NaN       1614.936     84.292               NaN
+MAPE              70.493       9.980               NaN         24.476      1.301               NaN
+sMAPE             45.209       9.290               NaN         28.478      1.306               NaN
+R2                 0.257       0.970               NaN         -1.318      0.992               NaN
+RMSE Skill           NaN         NaN            -3.953            NaN        NaN           -16.051

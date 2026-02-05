@@ -1,0 +1,12 @@
+LightGBM vs Day-Ahead Forecast — Metrics (Power Load)
+======================================================================
+
+           All Test Data                               First 24 Hours                             
+                LightGBM    Forecast Skill_vs_Forecast       LightGBM   Forecast Skill_vs_Forecast
+MSE          6004043.766  159719.974               NaN     476039.517  53147.833               NaN
+RMSE            2450.315     399.650               NaN        689.956    230.538               NaN
+MAE             1734.247     279.329               NaN        467.515    195.583               NaN
+MAPE               5.888       0.959               NaN          1.669      0.696               NaN
+sMAPE              5.948       0.958               NaN          1.687      0.698               NaN
+R2                 0.722       0.993               NaN          0.959      0.995               NaN
+RMSE Skill           NaN         NaN            -5.131            NaN        NaN            -1.993

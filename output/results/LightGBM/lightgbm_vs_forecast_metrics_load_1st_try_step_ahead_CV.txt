@@ -1,0 +1,11 @@
+LightGBM vs Day-Ahead Forecast — Metrics (Power Load)
+========================================================================
+
+                          All Test Data – LightGBM mean  All Test Data – LightGBM median  All Test Data – Forecast  First 24 Hours – LightGBM mean  First 24 Hours – LightGBM median  First 24 Hours – Forecast
+MSE                                         5504030.751                      5538019.288                159719.974                      439398.676                        263022.883                  53147.833
+RMSE                                           2346.067                         2353.300                   399.650                         662.872                           512.858                    230.538
+MAE                                            1648.176                         1595.477                   279.329                         432.011                           376.688                    195.583
+MAPE                                              5.609                            5.447                     0.959                           1.555                             1.355                      0.696
+sMAPE                                             5.642                            5.465                     0.958                           1.572                             1.370                      0.698
+R2                                                0.745                            0.744                     0.993                           0.962                             0.977                      0.995
+RMSE Skill (vs Forecast)                         -4.870                           -4.888                     0.000                          -1.875                            -1.225                      0.000

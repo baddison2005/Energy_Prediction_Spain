@@ -1,0 +1,11 @@
+LightGBM vs Day-Ahead Forecast — Metrics (Solar Generation)
+========================================================================
+
+                          All Test Data – LightGBM mean  All Test Data – LightGBM median  All Test Data – Forecast  First 24 Hours – LightGBM mean  First 24 Hours – LightGBM median  First 24 Hours – Forecast
+MSE                                          402811.429                       451207.644                 46701.181                       15124.993                         22520.998                  37737.917
+RMSE                                            634.674                          671.720                   216.105                         122.984                           150.070                    194.262
+MAE                                             390.011                          386.255                   130.143                          86.427                            92.380                    118.083
+MAPE                                            234.818                          211.497                    54.601                          77.409                            23.505                     41.703
+sMAPE                                            64.783                           55.021                    36.964                          65.977                            28.774                     55.901
+R2                                                0.851                            0.833                     0.983                           0.987                             0.980                      0.967
+RMSE Skill (vs Forecast)                         -1.937                           -2.108                     0.000                           0.367                             0.227                      0.000

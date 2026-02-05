@@ -1,0 +1,95 @@
+,0
+local_time,datetime64[ns]
+utc_time,datetime64[ns]
+utc_timestamp,int64
+date,object
+month,int32
+sunrise_time_utc,object
+sunset_time_utc,object
+daylight_length_hr,float64
+sunrise_day_fraction_utc,float64
+sunset_day_fraction_utc,float64
+utc_time_day_fraction,float64
+day_of_year,int32
+date_fraction_of_year,float64
+day_of_week,int32
+is_weekend,int64
+day_hour_sin,float64
+day_hour_cos,float64
+day_of_week_sin,float64
+day_of_week_cos,float64
+day_of_year_sin,float64
+day_of_year_cos,float64
+month_sin,float64
+month_cos,float64
+season,int64
+is_holiday,int64
+city_name,object
+temp,float64
+temp_rolling3h,float64
+temp_min,float64
+temp_min_rolling3h,float64
+temp_max,float64
+temp_max_rolling3h,float64
+pressure,int64
+pressure_rolling3h,float64
+humidity,int64
+humidity_rolling3h,float64
+wind_speed,int64
+wind_speed_rolling3h,float64
+wind_deg,int64
+wind_deg_rolling3h,float64
+rain_1h,float64
+rain_1h_rolling3h,float64
+rain_3h,float64
+rain_3h_rolling3h,float64
+snow_3h,float64
+snow_3h_rolling3h,float64
+clouds_all,int64
+clouds_all_rolling3h,float64
+solar_flux_Wm2,float64
+solar_flux_Wm2_rolling3h,float64
+weather_id,int64
+weather_main,object
+weather_description,object
+weather_icon,object
+severity,int64
+generation biomass,float64
+generation biomass_rolling3h,float64
+generation fossil brown coal/lignite,float64
+generation fossil brown coal/lignite_rolling3h,float64
+generation fossil gas,float64
+generation fossil gas_rolling3h,float64
+generation fossil hard coal,float64
+generation fossil hard coal_rolling3h,float64
+generation fossil oil,float64
+generation fossil oil_rolling3h,float64
+generation hydro pumped storage consumption,float64
+generation hydro pumped storage consumption_rolling3h,float64
+generation hydro run-of-river and poundage,float64
+generation hydro run-of-river and poundage_rolling3h,float64
+generation hydro water reservoir,float64
+generation hydro water reservoir_rolling3h,float64
+generation nuclear,float64
+generation nuclear_rolling3h,float64
+generation other,float64
+generation other_rolling3h,float64
+generation other renewable,float64
+generation other renewable_rolling3h,float64
+generation solar,float64
+generation solar_rolling3h,float64
+generation waste,float64
+generation waste_rolling3h,float64
+generation wind onshore,float64
+generation wind onshore_rolling3h,float64
+total load actual,float64
+total load actual_rolling3h,float64
+total load actual_rolling6h,float64
+price actual,float64
+price actual_rolling3h,float64
+price actual_rolling6h,float64
+forecast solar day ahead,float64
+forecast wind onshore day ahead,float64
+total load forecast,float64
+price day ahead,float64
+city_weights,float64

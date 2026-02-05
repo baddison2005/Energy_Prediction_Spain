@@ -1,0 +1,12 @@
+LightGBM vs Day-Ahead Forecast — Metrics (Solar Generation)
+======================================================================
+
+           All Test Data                              First 24 Hours                             
+                LightGBM   Forecast Skill_vs_Forecast       LightGBM   Forecast Skill_vs_Forecast
+MSE           432170.357  46701.181               NaN      21804.293  37737.917               NaN
+RMSE             657.397    216.105               NaN        147.663    194.262               NaN
+MAE              406.386    130.143               NaN        104.359    118.083               NaN
+MAPE             258.411     54.601               NaN         73.899     41.703               NaN
+sMAPE             62.960     36.964               NaN         43.554     55.901               NaN
+R2                 0.840      0.983               NaN          0.981      0.967               NaN
+RMSE Skill           NaN        NaN            -2.042            NaN        NaN              0.24
