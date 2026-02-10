@@ -1,0 +1,12 @@
+LightGBM 24h Rolling Prediction (Mean & Median) vs Day-Ahead Forecast — Overall Test Metrics
+==============================================================================================
+
+                             All Test Data                             
+                         LightGBM 24h Mean LightGBM 24h Median Forecast
+MSE                                125.811             123.939  152.639
+RMSE                                11.217              11.133   12.355
+MAE                                  9.130               8.821    9.194
+MAPE                                15.454              15.177   16.094
+sMAPE                               15.608              15.000   17.310
+R2                                   0.178               0.190    0.002
+RMSE Skill (vs Forecast)             0.092               0.099    0.000

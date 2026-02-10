@@ -1,0 +1,11 @@
+LightGBM vs Day-Ahead Forecast — Metrics (Price)
+========================================================================
+
+                          All Test Data – LightGBM mean  All Test Data – LightGBM median  All Test Data – Forecast  First 24 Hours – LightGBM mean  First 24 Hours – LightGBM median  First 24 Hours – Forecast
+MSE                                             161.178                          152.506                   152.639                          11.222                            12.687                     38.767
+RMSE                                             12.696                           12.349                    12.355                           3.350                             3.562                      6.226
+MAE                                              10.289                           10.042                     9.194                           2.571                             2.985                      6.159
+MAPE                                             17.000                           16.732                    16.094                           4.115                             4.819                      9.877
+sMAPE                                            18.054                           17.552                    17.310                           4.149                             4.873                     10.397
+R2                                               -0.054                            0.003                     0.002                           0.792                             0.765                      0.282
+RMSE Skill (vs Forecast)                         -0.028                            0.000                     0.000                           0.462                             0.428                      0.000
