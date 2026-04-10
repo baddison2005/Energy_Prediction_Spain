@@ -1,0 +1,2414 @@
+
+==== Trial 0 ====
+Params:
+  objective: regression
+  metric: rmse
+  verbosity: -1
+  boosting_type: gbdt
+  seed: 42
+  n_jobs: -1
+  learning_rate: 0.030710573677773714
+  num_leaves: 431
+  max_depth: 13
+  min_data_in_leaf: 206
+  feature_fraction: 0.6624074561769746
+  bagging_fraction: 0.662397808134481
+  bagging_freq: 0
+  lambda_l1: 0.6245760287469893
+  lambda_l2: 0.002570603566117598
+  Window 01: best_iter=94, train_RMSE=618.1852, valid_RMSE=885.3328
+  Window 02: best_iter=355, train_RMSE=417.7160, valid_RMSE=662.5799
+  Window 03: best_iter=95, train_RMSE=663.9978, valid_RMSE=857.1285
+  Window 04: best_iter=421, train_RMSE=412.1727, valid_RMSE=727.9729
+  Window 05: best_iter=200, train_RMSE=525.9284, valid_RMSE=795.2307
+  Window 06: best_iter=1592, train_RMSE=255.9121, valid_RMSE=662.3642
+  Window 07: best_iter=85, train_RMSE=697.3624, valid_RMSE=790.8526
+  Window 08: best_iter=72, train_RMSE=733.3729, valid_RMSE=801.1828
+  Window 09: best_iter=389, train_RMSE=439.8984, valid_RMSE=673.8901
+  Window 10: best_iter=161, train_RMSE=594.3568, valid_RMSE=819.3914
+  Window 11: best_iter=602, train_RMSE=378.1662, valid_RMSE=482.5358
+  Window 12: best_iter=1031, train_RMSE=302.0940, valid_RMSE=491.0701
+  Window 13: best_iter=1172, train_RMSE=280.7065, valid_RMSE=662.4091
+  Window 14: best_iter=104, train_RMSE=668.3842, valid_RMSE=720.8329
+  Window 15: best_iter=561, train_RMSE=383.3540, valid_RMSE=729.3096
+  Window 16: best_iter=297, train_RMSE=483.1283, valid_RMSE=618.0741
+  Window 17: best_iter=137, train_RMSE=619.4873, valid_RMSE=732.5891
+  Window 18: best_iter=254, train_RMSE=507.7150, valid_RMSE=508.0342
+  Window 19: best_iter=153, train_RMSE=582.7039, valid_RMSE=569.7571
+  Window 20: best_iter=161, train_RMSE=564.3005, valid_RMSE=700.7013
+  Window 21: best_iter=272, train_RMSE=465.7812, valid_RMSE=662.1906
+--> Trial mean valid RMSE: 693.0205, mean train RMSE: 504.5107
+
+==== Trial 1 ====
+Params:
+  objective: regression
+  metric: rmse
+  verbosity: -1
+  boosting_type: gbdt
+  seed: 42
+  n_jobs: -1
+  learning_rate: 0.08341106432362087
+  num_leaves: 17
+  max_depth: 16
+  min_data_in_leaf: 517
+  feature_fraction: 0.6849356442713105
+  bagging_fraction: 0.6727299868828402
+  bagging_freq: 2
+  lambda_l1: 5.472429642032198e-06
+  lambda_l2: 0.00052821153945323
+  Window 01: best_iter=28, train_RMSE=780.4981, valid_RMSE=877.1775
+  Window 02: best_iter=518, train_RMSE=489.1109, valid_RMSE=641.0209
+  Window 03: best_iter=79, train_RMSE=689.0876, valid_RMSE=832.6657
+  Window 04: best_iter=270, train_RMSE=566.0595, valid_RMSE=756.3879
+  Window 05: best_iter=594, train_RMSE=484.0035, valid_RMSE=778.9597
+  Window 06: best_iter=754, train_RMSE=467.8524, valid_RMSE=701.4384
+  Window 07: best_iter=32, train_RMSE=799.8344, valid_RMSE=795.9055
+  Window 08: best_iter=31, train_RMSE=801.6307, valid_RMSE=813.8350
+  Window 09: best_iter=584, train_RMSE=512.7860, valid_RMSE=702.2511
+  Window 10: best_iter=484, train_RMSE=535.2575, valid_RMSE=810.5838
+  Window 11: best_iter=771, train_RMSE=479.1947, valid_RMSE=602.5986
+  Window 12: best_iter=874, train_RMSE=440.1512, valid_RMSE=494.1193
+  Window 13: best_iter=1658, train_RMSE=354.7840, valid_RMSE=653.7378
+  Window 14: best_iter=91, train_RMSE=696.2241, valid_RMSE=712.4620
+  Window 15: best_iter=301, train_RMSE=572.6200, valid_RMSE=743.0212
+  Window 16: best_iter=629, train_RMSE=484.1877, valid_RMSE=615.3853
+  Window 17: best_iter=100, train_RMSE=682.9821, valid_RMSE=744.0334
+  Window 18: best_iter=83, train_RMSE=694.4529, valid_RMSE=515.2828
+  Window 19: best_iter=151, train_RMSE=624.6689, valid_RMSE=562.7125
+  Window 20: best_iter=193, train_RMSE=582.2838, valid_RMSE=697.3853
+  Window 21: best_iter=355, train_RMSE=518.2763, valid_RMSE=638.6813
+--> Trial mean valid RMSE: 699.5069, mean train RMSE: 583.6165
+
+==== Trial 2 ====
+Params:
+  objective: regression
+  metric: rmse
+  verbosity: -1
+  boosting_type: gbdt
+  seed: 42
+  n_jobs: -1
+  learning_rate: 0.03647316284911211
+  num_leaves: 43
+  max_depth: 11
+  min_data_in_leaf: 34
+  feature_fraction: 0.7168578594140873
+  bagging_fraction: 0.7465447373174767
+  bagging_freq: 5
+  lambda_l1: 0.1165691561324743
+  lambda_l2: 6.267062696005991e-07
+  Window 01: best_iter=75, train_RMSE=486.2604, valid_RMSE=868.4488
+  Window 02: best_iter=143, train_RMSE=370.3438, valid_RMSE=652.2792
+  Window 03: best_iter=64, train_RMSE=564.7414, valid_RMSE=860.8357
+  Window 04: best_iter=105, train_RMSE=434.7698, valid_RMSE=717.9854
+  Window 05: best_iter=93, train_RMSE=471.9394, valid_RMSE=812.4716
+  Window 06: best_iter=283, train_RMSE=276.2159, valid_RMSE=629.4273
+  Window 07: best_iter=63, train_RMSE=579.8986, valid_RMSE=770.0037
+  Window 08: best_iter=62, train_RMSE=585.5548, valid_RMSE=782.4328
+  Window 09: best_iter=170, train_RMSE=356.1570, valid_RMSE=647.5724
+  Window 10: best_iter=194, train_RMSE=328.0737, valid_RMSE=779.0612
+  Window 11: best_iter=182, train_RMSE=332.7914, valid_RMSE=484.8272
+  Window 12: best_iter=405, train_RMSE=211.6045, valid_RMSE=447.9670
+  Window 13: best_iter=743, train_RMSE=137.1577, valid_RMSE=606.2852
+  Window 14: best_iter=228, train_RMSE=295.4650, valid_RMSE=686.5095
+  Window 15: best_iter=264, train_RMSE=269.3343, valid_RMSE=715.3075
+  Window 16: best_iter=103, train_RMSE=465.1200, valid_RMSE=639.2837
+  Window 17: best_iter=124, train_RMSE=413.2314, valid_RMSE=715.1760
+  Window 18: best_iter=139, train_RMSE=396.4283, valid_RMSE=507.6377
+  Window 19: best_iter=125, train_RMSE=417.6638, valid_RMSE=610.8767
+  Window 20: best_iter=196, train_RMSE=320.6857, valid_RMSE=711.0391
+  Window 21: best_iter=147, train_RMSE=369.7410, valid_RMSE=678.1399
+--> Trial mean valid RMSE: 682.0747, mean train RMSE: 384.9132
+
+==== Trial 3 ====
+Params:
+  objective: regression
+  metric: rmse
+  verbosity: -1
+  boosting_type: gbdt
+  seed: 42
+  n_jobs: -1
+  learning_rate: 0.04666963767236924
+  num_leaves: 123
+  max_depth: 3
+  min_data_in_leaf: 213
+  feature_fraction: 0.6682096494749166
+  bagging_fraction: 0.6260206371941118
+  bagging_freq: 10
+  lambda_l1: 4.905556676028774
+  lambda_l2: 0.18861495878553936
+  Window 01: best_iter=85, train_RMSE=699.0463, valid_RMSE=885.8226
+  Window 02: best_iter=257, train_RMSE=618.1016, valid_RMSE=656.9012
+  Window 03: best_iter=111, train_RMSE=707.2240, valid_RMSE=841.2054
+  Window 04: best_iter=166, train_RMSE=685.7464, valid_RMSE=756.9121
+  Window 05: best_iter=323, train_RMSE=631.0052, valid_RMSE=798.3053
+  Window 06: best_iter=970, train_RMSE=524.0608, valid_RMSE=705.3540
+  Window 07: best_iter=185, train_RMSE=681.8075, valid_RMSE=793.1135
+  Window 08: best_iter=60, train_RMSE=783.6542, valid_RMSE=811.9979
+  Window 09: best_iter=259, train_RMSE=673.4373, valid_RMSE=714.1014
+  Window 10: best_iter=318, train_RMSE=652.9317, valid_RMSE=823.3435
+  Window 11: best_iter=688, train_RMSE=587.8889, valid_RMSE=578.9010
+  Window 12: best_iter=940, train_RMSE=527.5060, valid_RMSE=538.0010
+  Window 13: best_iter=4579, train_RMSE=331.9956, valid_RMSE=634.1040
+  Window 14: best_iter=60, train_RMSE=791.3488, valid_RMSE=729.3416
+  Window 15: best_iter=909, train_RMSE=548.4495, valid_RMSE=717.4490
+  Window 16: best_iter=180, train_RMSE=687.7400, valid_RMSE=644.3884
+  Window 17: best_iter=108, train_RMSE=728.1467, valid_RMSE=729.0954
+  Window 18: best_iter=200, train_RMSE=674.0154, valid_RMSE=494.6548
+  Window 19: best_iter=460, train_RMSE=591.2091, valid_RMSE=575.5726
+  Window 20: best_iter=286, train_RMSE=617.8246, valid_RMSE=701.8737
+  Window 21: best_iter=504, train_RMSE=561.2065, valid_RMSE=676.9369
+--> Trial mean valid RMSE: 705.1131, mean train RMSE: 633.5403
+
+==== Trial 4 ====
+Params:
+  objective: regression
+  metric: rmse
+  verbosity: -1
+  boosting_type: gbdt
+  seed: 42
+  n_jobs: -1
+  learning_rate: 0.0249064396938244
+  num_leaves: 22
+  max_depth: 12
+  min_data_in_leaf: 110
+  feature_fraction: 0.6488152939379115
+  bagging_fraction: 0.798070764044508
+  bagging_freq: 0
+  lambda_l1: 1.527156759251193
+  lambda_l2: 2.133142332373004e-06
+  Window 01: best_iter=182, train_RMSE=483.4832, valid_RMSE=879.8285
+  Window 02: best_iter=185, train_RMSE=503.5772, valid_RMSE=650.9768
+  Window 03: best_iter=115, train_RMSE=608.7161, valid_RMSE=863.9379
+  Window 04: best_iter=202, train_RMSE=499.3216, valid_RMSE=726.5081
+  Window 05: best_iter=180, train_RMSE=525.0041, valid_RMSE=813.6769
+  Window 06: best_iter=647, train_RMSE=349.6232, valid_RMSE=657.1820
+  Window 07: best_iter=101, train_RMSE=651.3250, valid_RMSE=778.7002
+  Window 08: best_iter=88, train_RMSE=689.0053, valid_RMSE=805.6148
+  Window 09: best_iter=235, train_RMSE=501.0358, valid_RMSE=665.0890
+  Window 10: best_iter=182, train_RMSE=553.7267, valid_RMSE=854.2163
+  Window 11: best_iter=626, train_RMSE=352.2056, valid_RMSE=464.0533
+  Window 12: best_iter=483, train_RMSE=375.7820, valid_RMSE=468.8955
+  Window 13: best_iter=2113, train_RMSE=192.7307, valid_RMSE=611.4129
+  Window 14: best_iter=311, train_RMSE=444.0548, valid_RMSE=713.8194
+  Window 15: best_iter=482, train_RMSE=385.7755, valid_RMSE=688.0746
+  Window 16: best_iter=249, train_RMSE=487.4645, valid_RMSE=614.2309
+  Window 17: best_iter=171, train_RMSE=557.8141, valid_RMSE=717.2378
+  Window 18: best_iter=284, train_RMSE=472.5305, valid_RMSE=500.6405
+  Window 19: best_iter=266, train_RMSE=471.9414, valid_RMSE=585.8153
+  Window 20: best_iter=213, train_RMSE=493.0859, valid_RMSE=703.1642
+  Window 21: best_iter=337, train_RMSE=417.3445, valid_RMSE=651.8613
+--> Trial mean valid RMSE: 686.4255, mean train RMSE: 476.9308
+
+==== Trial 5 ====
+Params:
+  objective: regression
+  metric: rmse
+  verbosity: -1
+  boosting_type: gbdt
+  seed: 42
+  n_jobs: -1
+  learning_rate: 0.07277150634170934
+  num_leaves: 46
+  max_depth: 10
+  min_data_in_leaf: 168
+  feature_fraction: 0.6739417822102108
+  bagging_fraction: 0.9878338511058234
+  bagging_freq: 8
+  lambda_l1: 2.854239907497756
+  lambda_l2: 1.1309571585271483
+  Window 01: best_iter=33, train_RMSE=637.7994, valid_RMSE=884.9717
+  Window 02: best_iter=69, train_RMSE=532.3365, valid_RMSE=654.3795
+  Window 03: best_iter=38, train_RMSE=645.4803, valid_RMSE=838.3511
+  Window 04: best_iter=54, train_RMSE=584.8963, valid_RMSE=733.1285
+  Window 05: best_iter=90, train_RMSE=505.8192, valid_RMSE=806.0651
+  Window 06: best_iter=573, train_RMSE=275.3311, valid_RMSE=654.8048
+  Window 07: best_iter=35, train_RMSE=675.6913, valid_RMSE=783.6333
+  Window 08: best_iter=32, train_RMSE=700.4571, valid_RMSE=802.0285
+  Window 09: best_iter=96, train_RMSE=518.6998, valid_RMSE=687.9930
+  Window 10: best_iter=70, train_RMSE=570.3171, valid_RMSE=839.3765
+  Window 11: best_iter=190, train_RMSE=419.7718, valid_RMSE=463.6936
+  Window 12: best_iter=348, train_RMSE=328.3361, valid_RMSE=493.6831
+  Window 13: best_iter=875, train_RMSE=212.3943, valid_RMSE=634.5151
+  Window 14: best_iter=33, train_RMSE=702.3976, valid_RMSE=714.6698
+  Window 15: best_iter=180, train_RMSE=418.6306, valid_RMSE=718.7602
+  Window 16: best_iter=113, train_RMSE=498.6752, valid_RMSE=600.6973
+  Window 17: best_iter=49, train_RMSE=624.7427, valid_RMSE=735.1286
+  Window 18: best_iter=107, train_RMSE=500.0477, valid_RMSE=496.9280
+  Window 19: best_iter=52, train_RMSE=602.5256, valid_RMSE=570.9109
+  Window 20: best_iter=87, train_RMSE=508.3050, valid_RMSE=684.2959
+  Window 21: best_iter=112, train_RMSE=469.6758, valid_RMSE=693.0085
+--> Trial mean valid RMSE: 690.0487, mean train RMSE: 520.5872
+
+==== Trial 6 ====
+Params:
+  objective: regression
+  metric: rmse
+  verbosity: -1
+  boosting_type: gbdt
+  seed: 42
+  n_jobs: -1
+  learning_rate: 0.059963338824126605
+  num_leaves: 390
+  max_depth: 4
+  min_data_in_leaf: 42
+  feature_fraction: 0.6180909155642152
+  bagging_fraction: 0.7301321323053057
+  bagging_freq: 4
+  lambda_l1: 2.7678419414850017e-06
+  lambda_l2: 0.28749982347407854
+  Window 01: best_iter=51, train_RMSE=635.1148, valid_RMSE=888.8592
+  Window 02: best_iter=83, train_RMSE=591.6417, valid_RMSE=630.3678
+  Window 03: best_iter=35, train_RMSE=728.7960, valid_RMSE=877.5653
+  Window 04: best_iter=203, train_RMSE=483.7962, valid_RMSE=693.1267
+  Window 05: best_iter=85, train_RMSE=613.4373, valid_RMSE=794.8672
+  Window 06: best_iter=796, train_RMSE=330.1498, valid_RMSE=663.1033
+  Window 07: best_iter=237, train_RMSE=496.4323, valid_RMSE=786.7366
+  Window 08: best_iter=49, train_RMSE=702.0547, valid_RMSE=797.1460
+  Window 09: best_iter=609, train_RMSE=359.5374, valid_RMSE=663.0393
+  Window 10: best_iter=156, train_RMSE=557.6313, valid_RMSE=804.9972
+  Window 11: best_iter=469, train_RMSE=393.5808, valid_RMSE=447.4500
+  Window 12: best_iter=1014, train_RMSE=279.3383, valid_RMSE=428.9414
+  Window 13: best_iter=1699, train_RMSE=206.0292, valid_RMSE=616.6050
+  Window 14: best_iter=249, train_RMSE=462.2168, valid_RMSE=692.0125
+  Window 15: best_iter=463, train_RMSE=393.1629, valid_RMSE=684.6501
+  Window 16: best_iter=105, train_RMSE=607.1036, valid_RMSE=625.1824
+  Window 17: best_iter=144, train_RMSE=564.3628, valid_RMSE=706.2171
+  Window 18: best_iter=184, train_RMSE=526.1268, valid_RMSE=478.2552
+  Window 19: best_iter=106, train_RMSE=586.2003, valid_RMSE=580.8776
+  Window 20: best_iter=88, train_RMSE=605.1723, valid_RMSE=711.9289
+  Window 21: best_iter=250, train_RMSE=453.3837, valid_RMSE=662.1794
+--> Trial mean valid RMSE: 677.8147, mean train RMSE: 503.5842
+
+==== Trial 7 ====
+Params:
+  objective: regression
+  metric: rmse
+  verbosity: -1
+  boosting_type: gbdt
+  seed: 42
+  n_jobs: -1
+  learning_rate: 0.02911701023242742
+  num_leaves: 41
+  max_depth: 10
+  min_data_in_leaf: 34
+  feature_fraction: 0.9208787923016158
+  bagging_fraction: 0.6298202574719083
+  bagging_freq: 10
+  lambda_l1: 0.08916674715636537
+  lambda_l2: 6.143857495033091e-07
+  Window 01: best_iter=80, train_RMSE=553.5088, valid_RMSE=889.1788
+  Window 02: best_iter=184, train_RMSE=392.2885, valid_RMSE=628.0782
+  Window 03: best_iter=98, train_RMSE=525.8772, valid_RMSE=852.1438
+  Window 04: best_iter=156, train_RMSE=435.7899, valid_RMSE=726.4709
+  Window 05: best_iter=145, train_RMSE=444.0859, valid_RMSE=802.7205
+  Window 06: best_iter=1251, train_RMSE=143.3556, valid_RMSE=645.9238
+  Window 07: best_iter=84, train_RMSE=575.8010, valid_RMSE=776.6226
+  Window 08: best_iter=74, train_RMSE=606.4146, valid_RMSE=789.7435
+  Window 09: best_iter=210, train_RMSE=395.8382, valid_RMSE=653.9137
+  Window 10: best_iter=279, train_RMSE=345.8071, valid_RMSE=809.7298
+  Window 11: best_iter=299, train_RMSE=322.7214, valid_RMSE=481.2915
+  Window 12: best_iter=290, train_RMSE=323.0805, valid_RMSE=465.1305
+  Window 13: best_iter=648, train_RMSE=202.2833, valid_RMSE=639.0330
+  Window 14: best_iter=266, train_RMSE=340.0345, valid_RMSE=695.1583
+  Window 15: best_iter=207, train_RMSE=385.9005, valid_RMSE=734.8169
+  Window 16: best_iter=153, train_RMSE=443.2820, valid_RMSE=617.6720
+  Window 17: best_iter=132, train_RMSE=481.0462, valid_RMSE=708.4424
+  Window 18: best_iter=150, train_RMSE=464.8970, valid_RMSE=484.5986
+  Window 19: best_iter=169, train_RMSE=426.7587, valid_RMSE=618.8923
+  Window 20: best_iter=162, train_RMSE=421.2598, valid_RMSE=705.1009
+  Window 21: best_iter=155, train_RMSE=436.0566, valid_RMSE=665.4091
+--> Trial mean valid RMSE: 685.2415, mean train RMSE: 412.6708
+
+==== Trial 8 ====
+Params:
+  objective: regression
+  metric: rmse
+  verbosity: -1
+  boosting_type: gbdt
+  seed: 42
+  n_jobs: -1
+  learning_rate: 0.010166803740022877
+  num_leaves: 269
+  max_depth: 12
+  min_data_in_leaf: 344
+  feature_fraction: 0.9085081386743783
+  bagging_fraction: 0.6296178606936361
+  bagging_freq: 3
+  lambda_l1: 1.1036250149900698e-07
+  lambda_l2: 0.5860448217200517
+  Window 01: best_iter=221, train_RMSE=762.7106, valid_RMSE=899.2253
+  Window 02: best_iter=1718, train_RMSE=522.2643, valid_RMSE=642.3543
+  Window 03: best_iter=348, train_RMSE=729.1859, valid_RMSE=848.2694
+  Window 04: best_iter=375, train_RMSE=724.5639, valid_RMSE=783.5150
+  Window 05: best_iter=1503, train_RMSE=556.9533, valid_RMSE=798.6061
+  Window 06: best_iter=2967, train_RMSE=485.6285, valid_RMSE=701.9991
+  Window 07: best_iter=273, train_RMSE=774.6345, valid_RMSE=802.2853
+  Window 08: best_iter=243, train_RMSE=789.8525, valid_RMSE=810.9579
+  Window 09: best_iter=745, train_RMSE=663.2993, valid_RMSE=701.8371
+  Window 10: best_iter=544, train_RMSE=704.6736, valid_RMSE=867.0531
+  Window 11: best_iter=3886, train_RMSE=458.2448, valid_RMSE=530.2676
+  Window 12: best_iter=2148, train_RMSE=521.7604, valid_RMSE=521.7252
+  Window 13: best_iter=4963, train_RMSE=409.7910, valid_RMSE=683.4299
+  Window 14: best_iter=270, train_RMSE=787.8295, valid_RMSE=724.8702
+  Window 15: best_iter=1671, train_RMSE=555.4405, valid_RMSE=738.5089
+  Window 16: best_iter=660, train_RMSE=664.3246, valid_RMSE=645.9877
+  Window 17: best_iter=410, train_RMSE=723.3004, valid_RMSE=754.3189
+  Window 18: best_iter=693, train_RMSE=648.9144, valid_RMSE=506.6082
+  Window 19: best_iter=1002, train_RMSE=593.5546, valid_RMSE=567.5428
+  Window 20: best_iter=794, train_RMSE=606.9358, valid_RMSE=709.7728
+  Window 21: best_iter=1182, train_RMSE=558.8726, valid_RMSE=678.6857
+--> Trial mean valid RMSE: 710.3724, mean train RMSE: 630.6064
+
+==== Trial 9 ====
+Params:
+  objective: regression
+  metric: rmse
+  verbosity: -1
+  boosting_type: gbdt
+  seed: 42
+  n_jobs: -1
+  learning_rate: 0.06470376604234768
+  num_leaves: 49
+  max_depth: 3
+  min_data_in_leaf: 66
+  feature_fraction: 0.7300733288106989
+  bagging_fraction: 0.8918424713352255
+  bagging_freq: 7
+  lambda_l1: 0.9658611176861268
+  lambda_l2: 0.0001778010520878397
+  Window 01: best_iter=69, train_RMSE=639.3681, valid_RMSE=887.1976
+  Window 02: best_iter=110, train_RMSE=612.0401, valid_RMSE=659.1985
+  Window 03: best_iter=45, train_RMSE=726.3057, valid_RMSE=857.3633
+  Window 04: best_iter=324, train_RMSE=513.7900, valid_RMSE=705.4521
+  Window 05: best_iter=231, train_RMSE=555.5732, valid_RMSE=799.8712
+  Window 06: best_iter=987, train_RMSE=383.3678, valid_RMSE=684.5556
+  Window 07: best_iter=156, train_RMSE=617.6504, valid_RMSE=787.8742
+  Window 08: best_iter=38, train_RMSE=772.5558, valid_RMSE=809.4957
+  Window 09: best_iter=1631, train_RMSE=325.8291, valid_RMSE=664.5456
+  Window 10: best_iter=158, train_RMSE=630.6532, valid_RMSE=818.2031
+  Window 11: best_iter=546, train_RMSE=469.5362, valid_RMSE=457.1444
+  Window 12: best_iter=1459, train_RMSE=334.6506, valid_RMSE=432.2351
+  Window 13: best_iter=1460, train_RMSE=330.9521, valid_RMSE=665.2518
+  Window 14: best_iter=139, train_RMSE=634.7080, valid_RMSE=704.8679
+  Window 15: best_iter=645, train_RMSE=441.6912, valid_RMSE=683.9802
+  Window 16: best_iter=166, train_RMSE=619.4707, valid_RMSE=651.7153
+  Window 17: best_iter=91, train_RMSE=684.7392, valid_RMSE=710.7563
+  Window 18: best_iter=200, train_RMSE=590.1557, valid_RMSE=498.1020
+  Window 19: best_iter=194, train_RMSE=578.0151, valid_RMSE=591.0854
+  Window 20: best_iter=151, train_RMSE=588.7011, valid_RMSE=712.4778
+  Window 21: best_iter=217, train_RMSE=539.0299, valid_RMSE=666.5447
+--> Trial mean valid RMSE: 687.9961, mean train RMSE: 551.8468
+
+==== Trial 10 ====
+Params:
+  objective: regression
+  metric: rmse
+  verbosity: -1
+  boosting_type: gbdt
+  seed: 42
+  n_jobs: -1
+  learning_rate: 0.17397548204072913
+  num_leaves: 173
+  max_depth: 6
+  min_data_in_leaf: 21
+  feature_fraction: 0.8262452362725613
+  bagging_fraction: 0.7447070264153981
+  bagging_freq: 4
+  lambda_l1: 3.4046778781905594e-05
+  lambda_l2: 0.010478995733418019
+  Window 01: best_iter=15, train_RMSE=540.7703, valid_RMSE=891.1383
+  Window 02: best_iter=30, train_RMSE=442.0000, valid_RMSE=640.1749
+  Window 03: best_iter=28, train_RMSE=465.8540, valid_RMSE=874.2164
+  Window 04: best_iter=22, train_RMSE=508.6230, valid_RMSE=727.7651
+  Window 05: best_iter=18, train_RMSE=542.2357, valid_RMSE=785.3800
+  Window 06: best_iter=371, train_RMSE=126.0244, valid_RMSE=644.0945
+  Window 07: best_iter=14, train_RMSE=606.0261, valid_RMSE=786.5281
+  Window 08: best_iter=17, train_RMSE=570.1860, valid_RMSE=810.4740
+  Window 09: best_iter=90, train_RMSE=300.8418, valid_RMSE=638.2116
+  Window 10: best_iter=109, train_RMSE=274.8901, valid_RMSE=798.8648
+  Window 11: best_iter=104, train_RMSE=270.0441, valid_RMSE=465.8359
+  Window 12: best_iter=72, train_RMSE=330.9106, valid_RMSE=421.6231
+  Window 13: best_iter=419, train_RMSE=101.2938, valid_RMSE=603.2526
+  Window 14: best_iter=39, train_RMSE=416.1898, valid_RMSE=662.3068
+  Window 15: best_iter=126, train_RMSE=239.0676, valid_RMSE=708.2644
+  Window 16: best_iter=24, train_RMSE=499.1682, valid_RMSE=640.2109
+  Window 17: best_iter=26, train_RMSE=518.4551, valid_RMSE=721.6436
+  Window 18: best_iter=25, train_RMSE=516.9633, valid_RMSE=479.0334
+  Window 19: best_iter=41, train_RMSE=426.7290, valid_RMSE=621.4424
+  Window 20: best_iter=25, train_RMSE=499.9919, valid_RMSE=708.0123
+  Window 21: best_iter=27, train_RMSE=464.8393, valid_RMSE=678.0214
+--> Trial mean valid RMSE: 681.2616, mean train RMSE: 412.4335
+
+==== Trial 11 ====
+Params:
+  objective: regression
+  metric: rmse
+  verbosity: -1
+  boosting_type: gbdt
+  seed: 42
+  n_jobs: -1
+  learning_rate: 0.19793408703925483
+  num_leaves: 185
+  max_depth: 6
+  min_data_in_leaf: 22
+  feature_fraction: 0.8222008072142497
+  bagging_fraction: 0.7492674209401394
+  bagging_freq: 4
+  lambda_l1: 0.00017751672073517406
+  lambda_l2: 0.022891327927378125
+  Window 01: best_iter=16, train_RMSE=499.1947, valid_RMSE=874.8432
+  Window 02: best_iter=23, train_RMSE=464.0617, valid_RMSE=648.0958
+  Window 03: best_iter=16, train_RMSE=526.7493, valid_RMSE=854.4969
+  Window 04: best_iter=24, train_RMSE=480.8010, valid_RMSE=754.6457
+  Window 05: best_iter=20, train_RMSE=505.5288, valid_RMSE=794.9714
+  Window 06: best_iter=213, train_RMSE=183.0868, valid_RMSE=640.1938
+  Window 07: best_iter=21, train_RMSE=523.8023, valid_RMSE=782.9361
+  Window 08: best_iter=11, train_RMSE=640.0854, valid_RMSE=791.9579
+  Window 09: best_iter=87, train_RMSE=281.3770, valid_RMSE=636.4549
+  Window 10: best_iter=150, train_RMSE=222.1256, valid_RMSE=777.8112
+  Window 11: best_iter=78, train_RMSE=293.5323, valid_RMSE=503.4576
+  Window 12: best_iter=128, train_RMSE=238.9167, valid_RMSE=422.5872
+  Window 13: best_iter=360, train_RMSE=111.2957, valid_RMSE=601.0726
+  Window 14: best_iter=43, train_RMSE=368.7639, valid_RMSE=672.4759
+  Window 15: best_iter=29, train_RMSE=443.1646, valid_RMSE=714.4374
+  Window 16: best_iter=87, train_RMSE=282.9564, valid_RMSE=645.4263
+  Window 17: best_iter=17, train_RMSE=575.8343, valid_RMSE=743.3619
+  Window 18: best_iter=47, train_RMSE=412.8298, valid_RMSE=477.7041
+  Window 19: best_iter=21, train_RMSE=511.6318, valid_RMSE=618.0824
+  Window 20: best_iter=21, train_RMSE=512.5882, valid_RMSE=706.1853
+  Window 21: best_iter=16, train_RMSE=534.2975, valid_RMSE=690.9859
+--> Trial mean valid RMSE: 683.4373, mean train RMSE: 410.1249
+
+==== Trial 12 ====
+Params:
+  objective: regression
+  metric: rmse
+  verbosity: -1
+  boosting_type: gbdt
+  seed: 42
+  n_jobs: -1
+  learning_rate: 0.17176581800196847
+  num_leaves: 454
+  max_depth: 6
+  min_data_in_leaf: 20
+  feature_fraction: 0.8027936026422099
+  bagging_fraction: 0.7413584553307843
+  bagging_freq: 6
+  lambda_l1: 9.477329010827906e-06
+  lambda_l2: 8.494680567368173
+  Window 01: best_iter=30, train_RMSE=456.2159, valid_RMSE=885.2861
+  Window 02: best_iter=26, train_RMSE=504.3525, valid_RMSE=650.9068
+  Window 03: best_iter=17, train_RMSE=571.3148, valid_RMSE=847.7615
+  Window 04: best_iter=30, train_RMSE=496.3719, valid_RMSE=723.0071
+  Window 05: best_iter=25, train_RMSE=520.7819, valid_RMSE=818.4502
+  Window 06: best_iter=221, train_RMSE=204.1163, valid_RMSE=643.5842
+  Window 07: best_iter=17, train_RMSE=605.7055, valid_RMSE=786.7215
+  Window 08: best_iter=12, train_RMSE=677.9573, valid_RMSE=818.0780
+  Window 09: best_iter=559, train_RMSE=92.4806, valid_RMSE=636.1451
+  Window 10: best_iter=231, train_RMSE=189.3405, valid_RMSE=821.1966
+  Window 11: best_iter=63, train_RMSE=367.2193, valid_RMSE=498.0031
+  Window 12: best_iter=134, train_RMSE=245.6403, valid_RMSE=421.7441
+  Window 13: best_iter=219, train_RMSE=177.9908, valid_RMSE=628.8525
+  Window 14: best_iter=44, train_RMSE=409.5356, valid_RMSE=648.4670
+  Window 15: best_iter=49, train_RMSE=406.7312, valid_RMSE=687.7638
+  Window 16: best_iter=26, train_RMSE=509.7117, valid_RMSE=634.5168
+  Window 17: best_iter=28, train_RMSE=516.6396, valid_RMSE=687.8718
+  Window 18: best_iter=42, train_RMSE=439.9648, valid_RMSE=494.5320
+  Window 19: best_iter=16, train_RMSE=603.0012, valid_RMSE=601.4837
+  Window 20: best_iter=31, train_RMSE=486.2919, valid_RMSE=705.2363
+  Window 21: best_iter=32, train_RMSE=475.5555, valid_RMSE=683.8935
+--> Trial mean valid RMSE: 682.0715, mean train RMSE: 426.5200
+
+==== Trial 13 ====
+Params:
+  objective: regression
+  metric: rmse
+  verbosity: -1
+  boosting_type: gbdt
+  seed: 42
+  n_jobs: -1
+  learning_rate: 0.128258399194321
+  num_leaves: 236
+  max_depth: 6
+  min_data_in_leaf: 65
+  feature_fraction: 0.8489567844781626
+  bagging_fraction: 0.854678371162756
+  bagging_freq: 2
+  lambda_l1: 4.123431597095097e-08
+  lambda_l2: 0.014775475739688154
+  Window 01: best_iter=22, train_RMSE=557.8358, valid_RMSE=881.2325
+  Window 02: best_iter=40, train_RMSE=494.6254, valid_RMSE=664.1213
+  Window 03: best_iter=29, train_RMSE=549.3605, valid_RMSE=827.0260
+  Window 04: best_iter=99, train_RMSE=399.1039, valid_RMSE=709.7514
+  Window 05: best_iter=25, train_RMSE=580.0025, valid_RMSE=807.5963
+  Window 06: best_iter=254, train_RMSE=277.4041, valid_RMSE=654.6127
+  Window 07: best_iter=25, train_RMSE=598.8551, valid_RMSE=786.0026
+  Window 08: best_iter=18, train_RMSE=664.4560, valid_RMSE=798.4813
+  Window 09: best_iter=59, train_RMSE=484.5015, valid_RMSE=688.5225
+  Window 10: best_iter=81, train_RMSE=450.9331, valid_RMSE=834.2401
+  Window 11: best_iter=77, train_RMSE=446.7364, valid_RMSE=461.3458
+  Window 12: best_iter=233, train_RMSE=280.8119, valid_RMSE=477.1918
+  Window 13: best_iter=394, train_RMSE=208.6722, valid_RMSE=596.0885
+  Window 14: best_iter=102, train_RMSE=391.1557, valid_RMSE=715.8550
+  Window 15: best_iter=262, train_RMSE=279.6995, valid_RMSE=681.5789
+  Window 16: best_iter=30, train_RMSE=583.7414, valid_RMSE=660.8176
+  Window 17: best_iter=35, train_RMSE=560.7201, valid_RMSE=705.8848
+  Window 18: best_iter=36, train_RMSE=574.6105, valid_RMSE=509.4763
+  Window 19: best_iter=54, train_RMSE=490.2620, valid_RMSE=581.0769
+  Window 20: best_iter=42, train_RMSE=501.8820, valid_RMSE=700.9640
+  Window 21: best_iter=47, train_RMSE=481.3712, valid_RMSE=670.0076
+--> Trial mean valid RMSE: 686.2797, mean train RMSE: 469.3686
+
+==== Trial 14 ====
+Params:
+  objective: regression
+  metric: rmse
+  verbosity: -1
+  boosting_type: gbdt
+  seed: 42
+  n_jobs: -1
+  learning_rate: 0.016030182697577208
+  num_leaves: 111
+  max_depth: 8
+  min_data_in_leaf: 985
+  feature_fraction: 0.9982518431502138
+  bagging_fraction: 0.7028953142543801
+  bagging_freq: 4
+  lambda_l1: 0.0026131819188653614
+  lambda_l2: 3.215201289480654e-05
+  Window 01: best_iter=168, train_RMSE=795.7246, valid_RMSE=885.0051
+  Window 02: best_iter=1528, train_RMSE=647.3325, valid_RMSE=670.1844
+  Window 03: best_iter=284, train_RMSE=774.0430, valid_RMSE=837.5665
+  Window 04: best_iter=583, train_RMSE=728.7899, valid_RMSE=776.4748
+  Window 05: best_iter=2485, train_RMSE=615.3854, valid_RMSE=787.7289
+  Window 06: best_iter=1577, train_RMSE=657.9152, valid_RMSE=738.8697
+  Window 07: best_iter=329, train_RMSE=779.5859, valid_RMSE=793.6236
+  Window 08: best_iter=188, train_RMSE=815.8864, valid_RMSE=814.0080
+  Window 09: best_iter=788, train_RMSE=739.0025, valid_RMSE=719.6915
+  Window 10: best_iter=138, train_RMSE=854.2812, valid_RMSE=896.2793
+  Window 11: best_iter=1872, train_RMSE=681.2187, valid_RMSE=647.9034
+  Window 12: best_iter=3184, train_RMSE=609.7377, valid_RMSE=560.1929
+  Window 13: best_iter=4937, train_RMSE=558.0156, valid_RMSE=736.5614
+  Window 14: best_iter=236, train_RMSE=806.4284, valid_RMSE=731.6962
+  Window 15: best_iter=366, train_RMSE=773.7005, valid_RMSE=763.6626
+  Window 16: best_iter=932, train_RMSE=702.9648, valid_RMSE=654.3088
+  Window 17: best_iter=532, train_RMSE=737.9193, valid_RMSE=738.4769
+  Window 18: best_iter=867, train_RMSE=701.8681, valid_RMSE=530.0332
+  Window 19: best_iter=1000, train_RMSE=677.7559, valid_RMSE=585.7075
+  Window 20: best_iter=608, train_RMSE=697.2549, valid_RMSE=706.4071
+  Window 21: best_iter=1360, train_RMSE=634.7666, valid_RMSE=695.2654
+--> Trial mean valid RMSE: 727.1261, mean train RMSE: 713.7894
+
+==== Trial 15 ====
+Params:
+  objective: regression
+  metric: rmse
+  verbosity: -1
+  boosting_type: gbdt
+  seed: 42
+  n_jobs: -1
+  learning_rate: 0.11938743481514812
+  num_leaves: 301
+  max_depth: 5
+  min_data_in_leaf: 46
+  feature_fraction: 0.7664815103084881
+  bagging_fraction: 0.8081115429908472
+  bagging_freq: 5
+  lambda_l1: 1.1225844251873234e-06
+  lambda_l2: 0.044366603467447925
+  Window 01: best_iter=64, train_RMSE=449.4750, valid_RMSE=861.2718
+  Window 02: best_iter=51, train_RMSE=510.2842, valid_RMSE=668.5457
+  Window 03: best_iter=19, train_RMSE=660.6291, valid_RMSE=841.9899
+  Window 04: best_iter=49, train_RMSE=538.4689, valid_RMSE=730.0434
+  Window 05: best_iter=33, train_RMSE=579.9120, valid_RMSE=798.7671
+  Window 06: best_iter=297, train_RMSE=292.1970, valid_RMSE=651.0098
+  Window 07: best_iter=34, train_RMSE=590.5056, valid_RMSE=784.2350
+  Window 08: best_iter=22, train_RMSE=659.9435, valid_RMSE=788.4526
+  Window 09: best_iter=228, train_RMSE=318.4251, valid_RMSE=661.1824
+  Window 10: best_iter=57, train_RMSE=532.2743, valid_RMSE=826.9597
+  Window 11: best_iter=80, train_RMSE=464.6207, valid_RMSE=466.4925
+  Window 12: best_iter=361, train_RMSE=250.4449, valid_RMSE=432.4646
+  Window 13: best_iter=881, train_RMSE=143.2498, valid_RMSE=619.1494
+  Window 14: best_iter=91, train_RMSE=436.2872, valid_RMSE=711.9262
+  Window 15: best_iter=200, train_RMSE=355.8261, valid_RMSE=703.9118
+  Window 16: best_iter=46, train_RMSE=555.4594, valid_RMSE=665.3523
+  Window 17: best_iter=41, train_RMSE=582.1989, valid_RMSE=715.5533
+  Window 18: best_iter=52, train_RMSE=542.1317, valid_RMSE=496.5718
+  Window 19: best_iter=50, train_RMSE=540.3724, valid_RMSE=597.9526
+  Window 20: best_iter=34, train_RMSE=597.2019, valid_RMSE=728.8018
+  Window 21: best_iter=70, train_RMSE=464.0978, valid_RMSE=667.2024
+--> Trial mean valid RMSE: 686.5636, mean train RMSE: 479.2384
+
+==== Trial 16 ====
+Params:
+  objective: regression
+  metric: rmse
+  verbosity: -1
+  boosting_type: gbdt
+  seed: 42
+  n_jobs: -1
+  learning_rate: 0.10383747027357933
+  num_leaves: 159
+  max_depth: 8
+  min_data_in_leaf: 108
+  feature_fraction: 0.6028913625119565
+  bagging_fraction: 0.8064114554738083
+  bagging_freq: 2
+  lambda_l1: 0.00040802520235978026
+  lambda_l2: 1.314053143275926e-08
+  Window 01: best_iter=38, train_RMSE=528.1495, valid_RMSE=878.0151
+  Window 02: best_iter=47, train_RMSE=519.7443, valid_RMSE=668.3086
+  Window 03: best_iter=36, train_RMSE=575.2337, valid_RMSE=862.1391
+  Window 04: best_iter=134, train_RMSE=401.3737, valid_RMSE=723.2744
+  Window 05: best_iter=34, train_RMSE=586.8812, valid_RMSE=815.0368
+  Window 06: best_iter=298, train_RMSE=309.6326, valid_RMSE=638.8301
+  Window 07: best_iter=31, train_RMSE=608.8158, valid_RMSE=773.0625
+  Window 08: best_iter=21, train_RMSE=681.9778, valid_RMSE=804.3111
+  Window 09: best_iter=568, train_RMSE=214.1323, valid_RMSE=666.8746
+  Window 10: best_iter=88, train_RMSE=482.0351, valid_RMSE=830.5992
+  Window 11: best_iter=156, train_RMSE=389.9874, valid_RMSE=462.9098
+  Window 12: best_iter=346, train_RMSE=269.7729, valid_RMSE=493.0415
+  Window 13: best_iter=612, train_RMSE=192.7043, valid_RMSE=629.3463
+  Window 14: best_iter=24, train_RMSE=665.3219, valid_RMSE=722.8744
+  Window 15: best_iter=155, train_RMSE=390.1464, valid_RMSE=697.7640
+  Window 16: best_iter=62, train_RMSE=515.2760, valid_RMSE=628.6077
+  Window 17: best_iter=48, train_RMSE=562.4616, valid_RMSE=709.0907
+  Window 18: best_iter=75, train_RMSE=498.7573, valid_RMSE=501.7114
+  Window 19: best_iter=47, train_RMSE=551.9886, valid_RMSE=568.0582
+  Window 20: best_iter=92, train_RMSE=448.6866, valid_RMSE=687.9775
+  Window 21: best_iter=62, train_RMSE=493.9150, valid_RMSE=691.0368
+--> Trial mean valid RMSE: 688.2319, mean train RMSE: 470.8092
+
+==== Trial 17 ====
+Params:
+  objective: regression
+  metric: rmse
+  verbosity: -1
+  boosting_type: gbdt
+  seed: 42
+  n_jobs: -1
+  learning_rate: 0.05731003121527086
+  num_leaves: 78
+  max_depth: 4
+  min_data_in_leaf: 31
+  feature_fraction: 0.8721168875304383
+  bagging_fraction: 0.9150447742588977
+  bagging_freq: 8
+  lambda_l1: 9.279338416288717e-07
+  lambda_l2: 9.47601267299187
+  Window 01: best_iter=82, train_RMSE=583.1237, valid_RMSE=891.3144
+  Window 02: best_iter=153, train_RMSE=521.7845, valid_RMSE=653.1276
+  Window 03: best_iter=52, train_RMSE=675.0227, valid_RMSE=843.9981
+  Window 04: best_iter=86, train_RMSE=610.6398, valid_RMSE=728.4410
+  Window 05: best_iter=84, train_RMSE=625.5438, valid_RMSE=802.6037
+  Window 06: best_iter=1064, train_RMSE=265.0578, valid_RMSE=644.2926
+  Window 07: best_iter=157, train_RMSE=551.6326, valid_RMSE=788.6931
+  Window 08: best_iter=44, train_RMSE=719.9176, valid_RMSE=809.3408
+  Window 09: best_iter=945, train_RMSE=287.5467, valid_RMSE=637.7047
+  Window 10: best_iter=237, train_RMSE=502.4546, valid_RMSE=823.1894
+  Window 11: best_iter=494, train_RMSE=371.3708, valid_RMSE=450.3666
+  Window 12: best_iter=740, train_RMSE=299.9773, valid_RMSE=427.5313
+  Window 13: best_iter=1018, train_RMSE=250.8287, valid_RMSE=601.1170
+  Window 14: best_iter=255, train_RMSE=462.3353, valid_RMSE=658.1266
+  Window 15: best_iter=427, train_RMSE=386.9884, valid_RMSE=681.8321
+  Window 16: best_iter=126, train_RMSE=574.5220, valid_RMSE=640.3104
+  Window 17: best_iter=95, train_RMSE=619.1143, valid_RMSE=710.0053
+  Window 18: best_iter=243, train_RMSE=474.1010, valid_RMSE=457.9796
+  Window 19: best_iter=96, train_RMSE=607.5889, valid_RMSE=602.5146
+  Window 20: best_iter=156, train_RMSE=519.6686, valid_RMSE=699.7313
+  Window 21: best_iter=136, train_RMSE=528.1878, valid_RMSE=693.1789
+--> Trial mean valid RMSE: 678.3523, mean train RMSE: 497.0194
+
+==== Trial 18 ====
+Params:
+  objective: regression
+  metric: rmse
+  verbosity: -1
+  boosting_type: gbdt
+  seed: 42
+  n_jobs: -1
+  learning_rate: 0.05511375652799455
+  num_leaves: 75
+  max_depth: 4
+  min_data_in_leaf: 61
+  feature_fraction: 0.87471031877586
+  bagging_fraction: 0.9695081143548137
+  bagging_freq: 8
+  lambda_l1: 4.0295368104777483e-07
+  lambda_l2: 7.601410161705483
+  Window 01: best_iter=412, train_RMSE=388.0363, valid_RMSE=885.3908
+  Window 02: best_iter=86, train_RMSE=602.2011, valid_RMSE=653.7649
+  Window 03: best_iter=48, train_RMSE=694.7584, valid_RMSE=853.3210
+  Window 04: best_iter=384, train_RMSE=421.6871, valid_RMSE=711.2657
+  Window 05: best_iter=115, train_RMSE=583.7687, valid_RMSE=800.3714
+  Window 06: best_iter=1040, train_RMSE=303.5973, valid_RMSE=662.7629
+  Window 07: best_iter=104, train_RMSE=613.2455, valid_RMSE=790.2860
+  Window 08: best_iter=68, train_RMSE=672.4707, valid_RMSE=805.5926
+  Window 09: best_iter=1082, train_RMSE=308.1334, valid_RMSE=660.0469
+  Window 10: best_iter=171, train_RMSE=555.9025, valid_RMSE=821.9582
+  Window 11: best_iter=450, train_RMSE=432.2755, valid_RMSE=464.3254
+  Window 12: best_iter=606, train_RMSE=369.2862, valid_RMSE=450.8336
+  Window 13: best_iter=2593, train_RMSE=187.5508, valid_RMSE=579.1894
+  Window 14: best_iter=265, train_RMSE=490.4992, valid_RMSE=705.2268
+  Window 15: best_iter=450, train_RMSE=423.1956, valid_RMSE=682.1312
+  Window 16: best_iter=117, train_RMSE=612.9389, valid_RMSE=644.6564
+  Window 17: best_iter=147, train_RMSE=576.5972, valid_RMSE=701.8323
+  Window 18: best_iter=223, train_RMSE=519.0809, valid_RMSE=477.4179
+  Window 19: best_iter=154, train_RMSE=555.4584, valid_RMSE=580.3703
+  Window 20: best_iter=225, train_RMSE=488.9051, valid_RMSE=709.0823
+  Window 21: best_iter=355, train_RMSE=418.0804, valid_RMSE=688.7398
+--> Trial mean valid RMSE: 682.3126, mean train RMSE: 486.5557
+
+==== Trial 19 ====
+Params:
+  objective: regression
+  metric: rmse
+  verbosity: -1
+  boosting_type: gbdt
+  seed: 42
+  n_jobs: -1
+  learning_rate: 0.04172034220049176
+  num_leaves: 70
+  max_depth: 8
+  min_data_in_leaf: 34
+  feature_fraction: 0.9840139366116085
+  bagging_fraction: 0.9059903417995158
+  bagging_freq: 8
+  lambda_l1: 2.4134791381109816e-08
+  lambda_l2: 1.1359971976283874
+  Window 01: best_iter=71, train_RMSE=460.8609, valid_RMSE=873.6824
+  Window 02: best_iter=114, train_RMSE=397.3905, valid_RMSE=653.4941
+  Window 03: best_iter=55, train_RMSE=549.6793, valid_RMSE=856.0192
+  Window 04: best_iter=64, train_RMSE=512.4276, valid_RMSE=727.5397
+  Window 05: best_iter=85, train_RMSE=445.7637, valid_RMSE=808.2069
+  Window 06: best_iter=592, train_RMSE=184.4978, valid_RMSE=635.8318
+  Window 07: best_iter=61, train_RMSE=538.7503, valid_RMSE=773.9668
+  Window 08: best_iter=51, train_RMSE=581.3162, valid_RMSE=787.5327
+  Window 09: best_iter=231, train_RMSE=313.0485, valid_RMSE=650.2082
+  Window 10: best_iter=118, train_RMSE=418.9311, valid_RMSE=800.8633
+  Window 11: best_iter=290, train_RMSE=262.2772, valid_RMSE=496.7298
+  Window 12: best_iter=472, train_RMSE=197.0664, valid_RMSE=448.7189
+  Window 13: best_iter=1152, train_RMSE=106.1544, valid_RMSE=614.3687
+  Window 14: best_iter=152, train_RMSE=350.6435, valid_RMSE=722.8974
+  Window 15: best_iter=283, train_RMSE=274.8052, valid_RMSE=688.8233
+  Window 16: best_iter=112, train_RMSE=418.0804, valid_RMSE=632.2437
+  Window 17: best_iter=143, train_RMSE=390.6324, valid_RMSE=684.4413
+  Window 18: best_iter=103, train_RMSE=441.7946, valid_RMSE=515.1199
+  Window 19: best_iter=111, train_RMSE=426.2055, valid_RMSE=637.3072
+  Window 20: best_iter=108, train_RMSE=426.2394, valid_RMSE=705.2089
+  Window 21: best_iter=89, train_RMSE=443.6444, valid_RMSE=671.3901
+--> Trial mean valid RMSE: 684.9807, mean train RMSE: 387.6290
+
+==== Trial 20 ====
+Params:
+  objective: regression
+  metric: rmse
+  verbosity: -1
+  boosting_type: gbdt
+  seed: 42
+  n_jobs: -1
+  learning_rate: 0.018552366845742366
+  num_leaves: 29
+  max_depth: 4
+  min_data_in_leaf: 103
+  feature_fraction: 0.764570776956274
+  bagging_fraction: 0.9354348266823663
+  bagging_freq: 6
+  lambda_l1: 1.0382315215057618e-06
+  lambda_l2: 0.16475864731029458
+  Window 01: best_iter=169, train_RMSE=645.3302, valid_RMSE=887.3639
+  Window 02: best_iter=366, train_RMSE=561.8881, valid_RMSE=659.4276
+  Window 03: best_iter=156, train_RMSE=691.4551, valid_RMSE=866.2080
+  Window 04: best_iter=965, train_RMSE=467.8318, valid_RMSE=715.5141
+  Window 05: best_iter=393, train_RMSE=572.1173, valid_RMSE=803.0397
+  Window 06: best_iter=3078, train_RMSE=338.2151, valid_RMSE=665.9385
+  Window 07: best_iter=299, train_RMSE=632.3021, valid_RMSE=795.8590
+  Window 08: best_iter=144, train_RMSE=729.0963, valid_RMSE=801.6042
+  Window 09: best_iter=424, train_RMSE=601.6052, valid_RMSE=697.5179
+  Window 10: best_iter=408, train_RMSE=602.7137, valid_RMSE=818.5623
+  Window 11: best_iter=1284, train_RMSE=472.9454, valid_RMSE=459.2814
+  Window 12: best_iter=2767, train_RMSE=349.5280, valid_RMSE=456.7738
+  Window 13: best_iter=3201, train_RMSE=326.1461, valid_RMSE=636.8896
+  Window 14: best_iter=142, train_RMSE=741.1091, valid_RMSE=728.0591
+  Window 15: best_iter=1952, train_RMSE=405.6889, valid_RMSE=673.8252
+  Window 16: best_iter=491, train_RMSE=589.5899, valid_RMSE=639.3101
+  Window 17: best_iter=316, train_RMSE=636.9106, valid_RMSE=716.1484
+  Window 18: best_iter=513, train_RMSE=578.2937, valid_RMSE=492.7274
+  Window 19: best_iter=390, train_RMSE=596.1098, valid_RMSE=577.0386
+  Window 20: best_iter=388, train_RMSE=583.1988, valid_RMSE=717.8297
+  Window 21: best_iter=1104, train_RMSE=450.3138, valid_RMSE=678.3877
+--> Trial mean valid RMSE: 689.8717, mean train RMSE: 551.0662
+
+==== Trial 21 ====
+Params:
+  objective: regression
+  metric: rmse
+  verbosity: -1
+  boosting_type: gbdt
+  seed: 42
+  n_jobs: -1
+  learning_rate: 0.0799075373477411
+  num_leaves: 170
+  max_depth: 5
+  min_data_in_leaf: 26
+  feature_fraction: 0.8856964823296786
+  bagging_fraction: 0.8460219359292275
+  bagging_freq: 4
+  lambda_l1: 2.7217278948375043e-05
+  lambda_l2: 0.0047470692579982526
+  Window 01: best_iter=38, train_RMSE=562.3148, valid_RMSE=885.7668
+  Window 02: best_iter=58, train_RMSE=530.6299, valid_RMSE=647.8081
+  Window 03: best_iter=35, train_RMSE=617.0360, valid_RMSE=844.8645
+  Window 04: best_iter=73, train_RMSE=509.0248, valid_RMSE=736.9837
+  Window 05: best_iter=45, train_RMSE=576.6505, valid_RMSE=800.1910
+  Window 06: best_iter=603, train_RMSE=210.4748, valid_RMSE=653.2434
+  Window 07: best_iter=89, train_RMSE=505.5886, valid_RMSE=786.4071
+  Window 08: best_iter=26, train_RMSE=695.8132, valid_RMSE=808.8906
+  Window 09: best_iter=183, train_RMSE=369.3880, valid_RMSE=664.8278
+  Window 10: best_iter=83, train_RMSE=490.7679, valid_RMSE=818.8349
+  Window 11: best_iter=179, train_RMSE=361.0725, valid_RMSE=481.7620
+  Window 12: best_iter=373, train_RMSE=249.1962, valid_RMSE=403.5978
+  Window 13: best_iter=1159, train_RMSE=119.6925, valid_RMSE=636.9996
+  Window 14: best_iter=112, train_RMSE=426.7085, valid_RMSE=675.1939
+  Window 15: best_iter=184, train_RMSE=362.5693, valid_RMSE=702.5571
+  Window 16: best_iter=76, train_RMSE=515.9586, valid_RMSE=652.0274
+  Window 17: best_iter=51, train_RMSE=591.8442, valid_RMSE=705.0044
+  Window 18: best_iter=121, train_RMSE=452.5874, valid_RMSE=496.5043
+  Window 19: best_iter=112, train_RMSE=439.5970, valid_RMSE=591.9807
+  Window 20: best_iter=85, train_RMSE=474.2726, valid_RMSE=695.0764
+  Window 21: best_iter=70, train_RMSE=502.1983, valid_RMSE=685.9410
+--> Trial mean valid RMSE: 684.4982, mean train RMSE: 455.3993
+
+==== Trial 22 ====
+Params:
+  objective: regression
+  metric: rmse
+  verbosity: -1
+  boosting_type: gbdt
+  seed: 42
+  n_jobs: -1
+  learning_rate: 0.13968442618941437
+  num_leaves: 106
+  max_depth: 7
+  min_data_in_leaf: 47
+  feature_fraction: 0.9537958183622354
+  bagging_fraction: 0.7144688867654894
+  bagging_freq: 6
+  lambda_l1: 7.80877101703677e-05
+  lambda_l2: 1.8099582927512008
+  Window 01: best_iter=18, train_RMSE=548.8179, valid_RMSE=888.9883
+  Window 02: best_iter=32, train_RMSE=481.9123, valid_RMSE=665.4075
+  Window 03: best_iter=20, train_RMSE=570.3310, valid_RMSE=838.0946
+  Window 04: best_iter=66, train_RMSE=411.7889, valid_RMSE=723.2799
+  Window 05: best_iter=24, train_RMSE=552.7270, valid_RMSE=811.3332
+  Window 06: best_iter=223, train_RMSE=244.3248, valid_RMSE=658.9356
+  Window 07: best_iter=24, train_RMSE=558.4068, valid_RMSE=773.5055
+  Window 08: best_iter=17, train_RMSE=625.6097, valid_RMSE=806.8322
+  Window 09: best_iter=460, train_RMSE=151.3087, valid_RMSE=652.5445
+  Window 10: best_iter=72, train_RMSE=406.2439, valid_RMSE=828.3473
+  Window 11: best_iter=175, train_RMSE=274.5082, valid_RMSE=457.3006
+  Window 12: best_iter=144, train_RMSE=282.3895, valid_RMSE=475.2232
+  Window 13: best_iter=211, train_RMSE=228.4665, valid_RMSE=631.1490
+  Window 14: best_iter=54, train_RMSE=419.4868, valid_RMSE=698.2814
+  Window 15: best_iter=95, train_RMSE=362.2957, valid_RMSE=720.7830
+  Window 16: best_iter=41, train_RMSE=484.8816, valid_RMSE=615.2707
+  Window 17: best_iter=42, train_RMSE=479.5567, valid_RMSE=701.3597
+  Window 18: best_iter=46, train_RMSE=466.9376, valid_RMSE=510.3660
+  Window 19: best_iter=22, train_RMSE=571.1418, valid_RMSE=612.7458
+  Window 20: best_iter=59, train_RMSE=408.5432, valid_RMSE=697.1710
+  Window 21: best_iter=23, train_RMSE=536.1764, valid_RMSE=672.2301
+--> Trial mean valid RMSE: 687.5785, mean train RMSE: 431.7074
+
+==== Trial 23 ====
+Params:
+  objective: regression
+  metric: rmse
+  verbosity: -1
+  boosting_type: gbdt
+  seed: 42
+  n_jobs: -1
+  learning_rate: 0.055139664397892814
+  num_leaves: 348
+  max_depth: 4
+  min_data_in_leaf: 27
+  feature_fraction: 0.8366849379399733
+  bagging_fraction: 0.7600829030863261
+  bagging_freq: 3
+  lambda_l1: 3.834973965803874e-06
+  lambda_l2: 0.10841846988735346
+  Window 01: best_iter=54, train_RMSE=632.0503, valid_RMSE=893.7703
+  Window 02: best_iter=117, train_RMSE=540.1355, valid_RMSE=632.9629
+  Window 03: best_iter=46, train_RMSE=687.7269, valid_RMSE=869.7513
+  Window 04: best_iter=392, train_RMSE=374.2779, valid_RMSE=728.3090
+  Window 05: best_iter=75, train_RMSE=639.9447, valid_RMSE=794.1539
+  Window 06: best_iter=1133, train_RMSE=246.7734, valid_RMSE=657.2664
+  Window 07: best_iter=149, train_RMSE=549.5751, valid_RMSE=788.5947
+  Window 08: best_iter=44, train_RMSE=721.2702, valid_RMSE=803.0762
+  Window 09: best_iter=828, train_RMSE=298.8746, valid_RMSE=648.8404
+  Window 10: best_iter=240, train_RMSE=484.1426, valid_RMSE=801.9776
+  Window 11: best_iter=346, train_RMSE=412.2069, valid_RMSE=436.7883
+  Window 12: best_iter=736, train_RMSE=296.1490, valid_RMSE=430.1902
+  Window 13: best_iter=2193, train_RMSE=155.4647, valid_RMSE=610.7574
+  Window 14: best_iter=314, train_RMSE=411.7256, valid_RMSE=658.6055
+  Window 15: best_iter=377, train_RMSE=394.5148, valid_RMSE=708.4075
+  Window 16: best_iter=251, train_RMSE=454.8940, valid_RMSE=634.4034
+  Window 17: best_iter=107, train_RMSE=598.6310, valid_RMSE=720.2948
+  Window 18: best_iter=142, train_RMSE=554.1028, valid_RMSE=480.0872
+  Window 19: best_iter=119, train_RMSE=569.2323, valid_RMSE=585.1897
+  Window 20: best_iter=141, train_RMSE=533.4124, valid_RMSE=713.4776
+  Window 21: best_iter=213, train_RMSE=453.0200, valid_RMSE=680.7418
+--> Trial mean valid RMSE: 679.8879, mean train RMSE: 476.5774
+
+==== Trial 24 ====
+Params:
+  objective: regression
+  metric: rmse
+  verbosity: -1
+  boosting_type: gbdt
+  seed: 42
+  n_jobs: -1
+  learning_rate: 0.053175276557583855
+  num_leaves: 340
+  max_depth: 3
+  min_data_in_leaf: 46
+  feature_fraction: 0.7739182262229127
+  bagging_fraction: 0.7712118937726008
+  bagging_freq: 1
+  lambda_l1: 0.001929411056558045
+  lambda_l2: 0.35639750758961475
+  Window 01: best_iter=51, train_RMSE=712.9492, valid_RMSE=883.4449
+  Window 02: best_iter=205, train_RMSE=562.2555, valid_RMSE=646.0877
+  Window 03: best_iter=50, train_RMSE=738.1579, valid_RMSE=864.9751
+  Window 04: best_iter=296, train_RMSE=536.7500, valid_RMSE=716.2614
+  Window 05: best_iter=181, train_RMSE=605.2200, valid_RMSE=794.2198
+  Window 06: best_iter=1683, train_RMSE=327.3381, valid_RMSE=662.8452
+  Window 07: best_iter=169, train_RMSE=625.3943, valid_RMSE=792.6936
+  Window 08: best_iter=51, train_RMSE=756.3124, valid_RMSE=805.9688
+  Window 09: best_iter=1636, train_RMSE=338.7761, valid_RMSE=669.9003
+  Window 10: best_iter=337, train_RMSE=559.3455, valid_RMSE=828.5597
+  Window 11: best_iter=911, train_RMSE=412.2578, valid_RMSE=451.7344
+  Window 12: best_iter=1317, train_RMSE=355.1589, valid_RMSE=422.2136
+  Window 13: best_iter=1694, train_RMSE=314.6673, valid_RMSE=632.5350
+  Window 14: best_iter=333, train_RMSE=536.5588, valid_RMSE=711.4342
+  Window 15: best_iter=646, train_RMSE=452.8428, valid_RMSE=703.4356
+  Window 16: best_iter=124, train_RMSE=668.6287, valid_RMSE=662.1248
+  Window 17: best_iter=91, train_RMSE=710.5825, valid_RMSE=706.3053
+  Window 18: best_iter=403, train_RMSE=513.6598, valid_RMSE=475.3967
+  Window 19: best_iter=128, train_RMSE=647.1324, valid_RMSE=593.2471
+  Window 20: best_iter=200, train_RMSE=578.4152, valid_RMSE=711.9490
+  Window 21: best_iter=304, train_RMSE=508.2951, valid_RMSE=660.3765
+--> Trial mean valid RMSE: 685.5099, mean train RMSE: 545.7475
+
+==== Trial 25 ====
+Params:
+  objective: regression
+  metric: rmse
+  verbosity: -1
+  boosting_type: gbdt
+  seed: 42
+  n_jobs: -1
+  learning_rate: 0.09433241593460005
+  num_leaves: 385
+  max_depth: 4
+  min_data_in_leaf: 30
+  feature_fraction: 0.8487840759482133
+  bagging_fraction: 0.837546550025555
+  bagging_freq: 3
+  lambda_l1: 3.4883831316707584e-06
+  lambda_l2: 0.06784818178778312
+  Window 01: best_iter=151, train_RMSE=405.5492, valid_RMSE=886.2877
+  Window 02: best_iter=85, train_RMSE=510.2017, valid_RMSE=643.5455
+  Window 03: best_iter=30, train_RMSE=677.1907, valid_RMSE=860.6286
+  Window 04: best_iter=54, train_RMSE=599.5980, valid_RMSE=731.8751
+  Window 05: best_iter=45, train_RMSE=626.7548, valid_RMSE=794.1754
+  Window 06: best_iter=814, train_RMSE=228.2861, valid_RMSE=646.3166
+  Window 07: best_iter=61, train_RMSE=607.2567, valid_RMSE=784.3526
+  Window 08: best_iter=26, train_RMSE=718.2668, valid_RMSE=812.0771
+  Window 09: best_iter=323, train_RMSE=346.5032, valid_RMSE=659.9713
+  Window 10: best_iter=74, train_RMSE=579.4323, valid_RMSE=819.0403
+  Window 11: best_iter=342, train_RMSE=338.6627, valid_RMSE=469.0904
+  Window 12: best_iter=403, train_RMSE=306.7420, valid_RMSE=403.7079
+  Window 13: best_iter=1617, train_RMSE=135.8259, valid_RMSE=647.5688
+  Window 14: best_iter=140, train_RMSE=464.7774, valid_RMSE=649.3626
+  Window 15: best_iter=501, train_RMSE=283.5169, valid_RMSE=685.0870
+  Window 16: best_iter=100, train_RMSE=520.8071, valid_RMSE=632.5322
+  Window 17: best_iter=59, train_RMSE=601.8775, valid_RMSE=705.6334
+  Window 18: best_iter=123, train_RMSE=495.0786, valid_RMSE=467.2272
+  Window 19: best_iter=94, train_RMSE=511.3649, valid_RMSE=578.3074
+  Window 20: best_iter=90, train_RMSE=515.1116, valid_RMSE=700.4649
+  Window 21: best_iter=113, train_RMSE=464.1824, valid_RMSE=688.7263
+--> Trial mean valid RMSE: 679.3323, mean train RMSE: 473.1899
+
+==== Trial 26 ====
+Params:
+  objective: regression
+  metric: rmse
+  verbosity: -1
+  boosting_type: gbdt
+  seed: 42
+  n_jobs: -1
+  learning_rate: 0.09583063026378985
+  num_leaves: 470
+  max_depth: 5
+  min_data_in_leaf: 77
+  feature_fraction: 0.8660698517703787
+  bagging_fraction: 0.8538304052516412
+  bagging_freq: 9
+  lambda_l1: 3.15327794430775e-07
+  lambda_l2: 4.8228396265150195
+  Window 01: best_iter=28, train_RMSE=620.0209, valid_RMSE=882.7481
+  Window 02: best_iter=70, train_RMSE=519.3760, valid_RMSE=661.0442
+  Window 03: best_iter=31, train_RMSE=634.9415, valid_RMSE=844.1925
+  Window 04: best_iter=131, train_RMSE=453.3222, valid_RMSE=711.8291
+  Window 05: best_iter=84, train_RMSE=523.4609, valid_RMSE=821.8909
+  Window 06: best_iter=455, train_RMSE=310.5277, valid_RMSE=657.1322
+  Window 07: best_iter=171, train_RMSE=455.1931, valid_RMSE=793.3729
+  Window 08: best_iter=22, train_RMSE=726.2536, valid_RMSE=799.6979
+  Window 09: best_iter=152, train_RMSE=466.0310, valid_RMSE=687.9887
+  Window 10: best_iter=108, train_RMSE=513.2100, valid_RMSE=835.9245
+  Window 11: best_iter=179, train_RMSE=428.6602, valid_RMSE=448.7124
+  Window 12: best_iter=565, train_RMSE=272.9356, valid_RMSE=471.3862
+  Window 13: best_iter=912, train_RMSE=207.7000, valid_RMSE=638.1788
+  Window 14: best_iter=107, train_RMSE=497.1223, valid_RMSE=695.8162
+  Window 15: best_iter=186, train_RMSE=426.2057, valid_RMSE=677.5952
+  Window 16: best_iter=65, train_RMSE=573.2376, valid_RMSE=640.5930
+  Window 17: best_iter=58, train_RMSE=581.7734, valid_RMSE=693.5353
+  Window 18: best_iter=51, train_RMSE=620.8908, valid_RMSE=497.7035
+  Window 19: best_iter=46, train_RMSE=611.6551, valid_RMSE=592.7890
+  Window 20: best_iter=107, train_RMSE=485.8330, valid_RMSE=706.0152
+  Window 21: best_iter=105, train_RMSE=477.9829, valid_RMSE=697.5703
+--> Trial mean valid RMSE: 688.3674, mean train RMSE: 495.5397
+
+==== Trial 27 ====
+Params:
+  objective: regression
+  metric: rmse
+  verbosity: -1
+  boosting_type: gbdt
+  seed: 42
+  n_jobs: -1
+  learning_rate: 0.06729333435361473
+  num_leaves: 67
+  max_depth: 15
+  min_data_in_leaf: 33
+  feature_fraction: 0.60362662491687
+  bagging_fraction: 0.894720205833531
+  bagging_freq: 3
+  lambda_l1: 1.0899749309030904e-08
+  lambda_l2: 0.0013781956931800186
+  Window 01: best_iter=66, train_RMSE=323.1939, valid_RMSE=849.7220
+  Window 02: best_iter=93, train_RMSE=267.9914, valid_RMSE=649.3662
+  Window 03: best_iter=31, train_RMSE=546.1668, valid_RMSE=860.5123
+  Window 04: best_iter=53, train_RMSE=385.2701, valid_RMSE=726.5648
+  Window 05: best_iter=42, train_RMSE=460.7841, valid_RMSE=799.2831
+  Window 06: best_iter=133, train_RMSE=233.6395, valid_RMSE=644.3513
+  Window 07: best_iter=35, train_RMSE=524.9279, valid_RMSE=772.3127
+  Window 08: best_iter=34, train_RMSE=523.4006, valid_RMSE=789.5382
+  Window 09: best_iter=132, train_RMSE=230.8675, valid_RMSE=645.1392
+  Window 10: best_iter=91, train_RMSE=282.1953, valid_RMSE=788.7579
+  Window 11: best_iter=116, train_RMSE=235.6586, valid_RMSE=492.2260
+  Window 12: best_iter=207, train_RMSE=166.2857, valid_RMSE=416.4419
+  Window 13: best_iter=455, train_RMSE=89.9045, valid_RMSE=653.8614
+  Window 14: best_iter=137, train_RMSE=214.1238, valid_RMSE=712.0811
+  Window 15: best_iter=140, train_RMSE=213.5457, valid_RMSE=727.3063
+  Window 16: best_iter=67, train_RMSE=353.9201, valid_RMSE=628.2032
+  Window 17: best_iter=61, train_RMSE=375.6682, valid_RMSE=724.3043
+  Window 18: best_iter=73, train_RMSE=341.2160, valid_RMSE=500.0450
+  Window 19: best_iter=66, train_RMSE=347.1849, valid_RMSE=615.0925
+  Window 20: best_iter=148, train_RMSE=212.6576, valid_RMSE=698.4335
+  Window 21: best_iter=96, train_RMSE=269.9170, valid_RMSE=661.4513
+--> Trial mean valid RMSE: 683.5712, mean train RMSE: 314.2152
+
+==== Trial 28 ====
+Params:
+  objective: regression
+  metric: rmse
+  verbosity: -1
+  boosting_type: gbdt
+  seed: 42
+  n_jobs: -1
+  learning_rate: 0.03826823253492454
+  num_leaves: 213
+  max_depth: 7
+  min_data_in_leaf: 48
+  feature_fraction: 0.9327072223971016
+  bagging_fraction: 0.95378051929674
+  bagging_freq: 5
+  lambda_l1: 1.658202937492573e-06
+  lambda_l2: 0.04926504983714247
+  Window 01: best_iter=227, train_RMSE=344.6089, valid_RMSE=866.5841
+  Window 02: best_iter=100, train_RMSE=483.5409, valid_RMSE=657.0968
+  Window 03: best_iter=75, train_RMSE=538.6179, valid_RMSE=858.1895
+  Window 04: best_iter=82, train_RMSE=518.2209, valid_RMSE=726.7741
+  Window 05: best_iter=110, train_RMSE=478.1347, valid_RMSE=798.7620
+  Window 06: best_iter=586, train_RMSE=263.9511, valid_RMSE=646.6397
+  Window 07: best_iter=66, train_RMSE=580.3319, valid_RMSE=771.9166
+  Window 08: best_iter=55, train_RMSE=627.2219, valid_RMSE=795.9539
+  Window 09: best_iter=310, train_RMSE=341.4902, valid_RMSE=654.7598
+  Window 10: best_iter=151, train_RMSE=446.1013, valid_RMSE=806.1439
+  Window 11: best_iter=341, train_RMSE=311.0310, valid_RMSE=468.9608
+  Window 12: best_iter=623, train_RMSE=226.8511, valid_RMSE=452.7591
+  Window 13: best_iter=547, train_RMSE=247.3271, valid_RMSE=606.5265
+  Window 14: best_iter=360, train_RMSE=309.4757, valid_RMSE=716.2104
+  Window 15: best_iter=298, train_RMSE=337.9749, valid_RMSE=683.4780
+  Window 16: best_iter=143, train_RMSE=457.6830, valid_RMSE=639.7713
+  Window 17: best_iter=136, train_RMSE=475.9086, valid_RMSE=706.5701
+  Window 18: best_iter=177, train_RMSE=425.3130, valid_RMSE=494.6952
+  Window 19: best_iter=137, train_RMSE=456.4590, valid_RMSE=614.7391
+  Window 20: best_iter=135, train_RMSE=448.5437, valid_RMSE=695.4032
+  Window 21: best_iter=90, train_RMSE=503.9882, valid_RMSE=679.8935
+--> Trial mean valid RMSE: 682.9442, mean train RMSE: 420.1322
+
+==== Trial 29 ====
+Params:
+  objective: regression
+  metric: rmse
+  verbosity: -1
+  boosting_type: gbdt
+  seed: 42
+  n_jobs: -1
+  learning_rate: 0.0915021988684295
+  num_leaves: 394
+  max_depth: 3
+  min_data_in_leaf: 82
+  feature_fraction: 0.9032318790265901
+  bagging_fraction: 0.8338714709788033
+  bagging_freq: 7
+  lambda_l1: 8.950327645651738e-08
+  lambda_l2: 2.3363190354065573
+  Window 01: best_iter=94, train_RMSE=575.4017, valid_RMSE=887.2578
+  Window 02: best_iter=78, train_RMSE=620.6171, valid_RMSE=655.7098
+  Window 03: best_iter=26, train_RMSE=754.5830, valid_RMSE=857.8650
+  Window 04: best_iter=177, train_RMSE=552.9546, valid_RMSE=711.8282
+  Window 05: best_iter=204, train_RMSE=544.4644, valid_RMSE=790.4458
+  Window 06: best_iter=893, train_RMSE=369.0677, valid_RMSE=686.6495
+  Window 07: best_iter=151, train_RMSE=597.7469, valid_RMSE=791.6442
+  Window 08: best_iter=23, train_RMSE=795.0268, valid_RMSE=813.7904
+  Window 09: best_iter=312, train_RMSE=520.7431, valid_RMSE=699.9546
+  Window 10: best_iter=94, train_RMSE=653.1075, valid_RMSE=824.7639
+  Window 11: best_iter=209, train_RMSE=564.6870, valid_RMSE=465.2286
+  Window 12: best_iter=763, train_RMSE=387.6732, valid_RMSE=455.4051
+  Window 13: best_iter=1140, train_RMSE=329.9424, valid_RMSE=635.8823
+  Window 14: best_iter=139, train_RMSE=599.4316, valid_RMSE=730.9558
+  Window 15: best_iter=463, train_RMSE=458.2792, valid_RMSE=691.7450
+  Window 16: best_iter=54, train_RMSE=709.4328, valid_RMSE=656.9161
+  Window 17: best_iter=49, train_RMSE=726.3578, valid_RMSE=708.3183
+  Window 18: best_iter=210, train_RMSE=556.2129, valid_RMSE=496.0465
+  Window 19: best_iter=92, train_RMSE=627.2005, valid_RMSE=588.9575
+  Window 20: best_iter=217, train_RMSE=521.4183, valid_RMSE=702.3198
+  Window 21: best_iter=281, train_RMSE=485.3733, valid_RMSE=668.2332
+--> Trial mean valid RMSE: 691.4246, mean train RMSE: 569.0344
+
+==== Trial 30 ====
+Params:
+  objective: regression
+  metric: rmse
+  verbosity: -1
+  boosting_type: gbdt
+  seed: 42
+  n_jobs: -1
+  learning_rate: 0.03153222084278396
+  num_leaves: 132
+  max_depth: 4
+  min_data_in_leaf: 27
+  feature_fraction: 0.7266832791041922
+  bagging_fraction: 0.9227002846376215
+  bagging_freq: 1
+  lambda_l1: 1.3826496690485624e-05
+  lambda_l2: 0.0016296851662876137
+  Window 01: best_iter=431, train_RMSE=421.9976, valid_RMSE=886.0583
+  Window 02: best_iter=181, train_RMSE=564.5305, valid_RMSE=648.3360
+  Window 03: best_iter=88, train_RMSE=679.8885, valid_RMSE=855.3190
+  Window 04: best_iter=321, train_RMSE=500.6922, valid_RMSE=736.0429
+  Window 05: best_iter=123, train_RMSE=638.4981, valid_RMSE=796.8559
+  Window 06: best_iter=2062, train_RMSE=237.3460, valid_RMSE=644.8660
+  Window 07: best_iter=210, train_RMSE=578.5751, valid_RMSE=786.3504
+  Window 08: best_iter=73, train_RMSE=731.2774, valid_RMSE=804.2798
+  Window 09: best_iter=1212, train_RMSE=312.2669, valid_RMSE=644.7135
+  Window 10: best_iter=349, train_RMSE=498.5781, valid_RMSE=805.8129
+  Window 11: best_iter=485, train_RMSE=444.1624, valid_RMSE=468.5766
+  Window 12: best_iter=1300, train_RMSE=284.6300, valid_RMSE=401.6540
+  Window 13: best_iter=4447, train_RMSE=132.8880, valid_RMSE=603.3006
+  Window 14: best_iter=532, train_RMSE=411.3921, valid_RMSE=661.9300
+  Window 15: best_iter=836, train_RMSE=348.3879, valid_RMSE=695.3416
+  Window 16: best_iter=489, train_RMSE=435.1350, valid_RMSE=632.3453
+  Window 17: best_iter=170, train_RMSE=603.6689, valid_RMSE=693.8801
+  Window 18: best_iter=366, train_RMSE=486.9192, valid_RMSE=467.3466
+  Window 19: best_iter=147, train_RMSE=621.5846, valid_RMSE=598.4355
+  Window 20: best_iter=346, train_RMSE=459.8649, valid_RMSE=696.5104
+  Window 21: best_iter=326, train_RMSE=468.5198, valid_RMSE=694.4809
+--> Trial mean valid RMSE: 677.2589, mean train RMSE: 469.5621
+
+==== Trial 31 ====
+Params:
+  objective: regression
+  metric: rmse
+  verbosity: -1
+  boosting_type: gbdt
+  seed: 42
+  n_jobs: -1
+  learning_rate: 0.030245976647974317
+  num_leaves: 88
+  max_depth: 4
+  min_data_in_leaf: 28
+  feature_fraction: 0.6342648408307912
+  bagging_fraction: 0.9173628117712649
+  bagging_freq: 0
+  lambda_l1: 2.0013024579378856e-05
+  lambda_l2: 0.0019193966052547646
+  Window 01: best_iter=88, train_RMSE=650.0814, valid_RMSE=890.6984
+  Window 02: best_iter=213, train_RMSE=545.0871, valid_RMSE=640.6330
+  Window 03: best_iter=85, train_RMSE=691.2529, valid_RMSE=859.2919
+  Window 04: best_iter=339, train_RMSE=491.1991, valid_RMSE=729.6683
+  Window 05: best_iter=133, train_RMSE=636.1515, valid_RMSE=797.5004
+  Window 06: best_iter=1868, train_RMSE=258.5936, valid_RMSE=654.0875
+  Window 07: best_iter=196, train_RMSE=599.9694, valid_RMSE=788.0588
+  Window 08: best_iter=79, train_RMSE=723.9043, valid_RMSE=801.8893
+  Window 09: best_iter=1259, train_RMSE=321.0641, valid_RMSE=646.6203
+  Window 10: best_iter=521, train_RMSE=450.4961, valid_RMSE=808.3264
+  Window 11: best_iter=484, train_RMSE=448.6344, valid_RMSE=446.9049
+  Window 12: best_iter=2313, train_RMSE=221.2555, valid_RMSE=403.5931
+  Window 13: best_iter=3278, train_RMSE=175.2882, valid_RMSE=614.0530
+  Window 14: best_iter=429, train_RMSE=466.3153, valid_RMSE=665.4598
+  Window 15: best_iter=1111, train_RMSE=318.3513, valid_RMSE=693.4055
+  Window 16: best_iter=200, train_RMSE=584.4028, valid_RMSE=636.1818
+  Window 17: best_iter=151, train_RMSE=638.5614, valid_RMSE=698.6781
+  Window 18: best_iter=445, train_RMSE=462.8045, valid_RMSE=465.9637
+  Window 19: best_iter=194, train_RMSE=582.1112, valid_RMSE=591.9839
+  Window 20: best_iter=204, train_RMSE=562.6542, valid_RMSE=700.3939
+  Window 21: best_iter=491, train_RMSE=409.1612, valid_RMSE=691.8894
+--> Trial mean valid RMSE: 677.3943, mean train RMSE: 487.4924
+
+==== Trial 32 ====
+Params:
+  objective: regression
+  metric: rmse
+  verbosity: -1
+  boosting_type: gbdt
+  seed: 42
+  n_jobs: -1
+  learning_rate: 0.0251086124575216
+  num_leaves: 89
+  max_depth: 5
+  min_data_in_leaf: 40
+  feature_fraction: 0.6213742047657347
+  bagging_fraction: 0.9179067838687994
+  bagging_freq: 0
+  lambda_l1: 2.3879933555973428e-05
+  lambda_l2: 9.068633337033847e-05
+  Window 01: best_iter=105, train_RMSE=597.4070, valid_RMSE=885.6603
+  Window 02: best_iter=188, train_RMSE=542.0473, valid_RMSE=645.8428
+  Window 03: best_iter=109, train_RMSE=627.3125, valid_RMSE=851.6529
+  Window 04: best_iter=163, train_RMSE=570.6908, valid_RMSE=728.2716
+  Window 05: best_iter=153, train_RMSE=575.0550, valid_RMSE=797.0424
+  Window 06: best_iter=1598, train_RMSE=260.7325, valid_RMSE=654.4263
+  Window 07: best_iter=255, train_RMSE=537.5005, valid_RMSE=789.4043
+  Window 08: best_iter=130, train_RMSE=617.2693, valid_RMSE=803.9024
+  Window 09: best_iter=1092, train_RMSE=313.1298, valid_RMSE=656.2836
+  Window 10: best_iter=284, train_RMSE=494.8722, valid_RMSE=795.1625
+  Window 11: best_iter=772, train_RMSE=350.0405, valid_RMSE=440.3590
+  Window 12: best_iter=856, train_RMSE=319.8062, valid_RMSE=425.6108
+  Window 13: best_iter=3436, train_RMSE=152.4290, valid_RMSE=554.5501
+  Window 14: best_iter=378, train_RMSE=445.8695, valid_RMSE=662.1249
+  Window 15: best_iter=1044, train_RMSE=303.8625, valid_RMSE=698.5977
+  Window 16: best_iter=385, train_RMSE=449.9760, valid_RMSE=622.4312
+  Window 17: best_iter=188, train_RMSE=579.7070, valid_RMSE=706.2299
+  Window 18: best_iter=405, train_RMSE=465.5579, valid_RMSE=461.5196
+  Window 19: best_iter=266, train_RMSE=512.6254, valid_RMSE=590.5043
+  Window 20: best_iter=257, train_RMSE=504.7189, valid_RMSE=700.0040
+  Window 21: best_iter=357, train_RMSE=436.6198, valid_RMSE=681.6076
+--> Trial mean valid RMSE: 673.8661, mean train RMSE: 459.8681
+
+==== Trial 33 ====
+Params:
+  objective: regression
+  metric: rmse
+  verbosity: -1
+  boosting_type: gbdt
+  seed: 42
+  n_jobs: -1
+  learning_rate: 0.021414521067041815
+  num_leaves: 133
+  max_depth: 5
+  min_data_in_leaf: 42
+  feature_fraction: 0.6353791853312106
+  bagging_fraction: 0.8774779345872488
+  bagging_freq: 0
+  lambda_l1: 0.0006938761418815319
+  lambda_l2: 5.275821956973506e-05
+  Window 01: best_iter=128, train_RMSE=583.6558, valid_RMSE=880.3984
+  Window 02: best_iter=246, train_RMSE=527.3596, valid_RMSE=637.3820
+  Window 03: best_iter=122, train_RMSE=636.6932, valid_RMSE=856.9471
+  Window 04: best_iter=179, train_RMSE=587.0151, valid_RMSE=733.0831
+  Window 05: best_iter=184, train_RMSE=574.6222, valid_RMSE=798.7011
+  Window 06: best_iter=2475, train_RMSE=232.9873, valid_RMSE=641.7116
+  Window 07: best_iter=312, train_RMSE=532.6440, valid_RMSE=782.4310
+  Window 08: best_iter=115, train_RMSE=673.2611, valid_RMSE=797.3559
+  Window 09: best_iter=1214, train_RMSE=321.4750, valid_RMSE=653.6162
+  Window 10: best_iter=299, train_RMSE=513.8455, valid_RMSE=784.2623
+  Window 11: best_iter=1272, train_RMSE=311.5503, valid_RMSE=442.6111
+  Window 12: best_iter=1999, train_RMSE=242.4410, valid_RMSE=433.9319
+  Window 13: best_iter=3896, train_RMSE=159.7186, valid_RMSE=584.6399
+  Window 14: best_iter=396, train_RMSE=465.2026, valid_RMSE=658.9033
+  Window 15: best_iter=164, train_RMSE=621.0819, valid_RMSE=720.8438
+  Window 16: best_iter=313, train_RMSE=515.2782, valid_RMSE=626.3642
+  Window 17: best_iter=313, train_RMSE=508.9691, valid_RMSE=697.7596
+  Window 18: best_iter=512, train_RMSE=453.5704, valid_RMSE=456.4370
+  Window 19: best_iter=255, train_RMSE=548.1804, valid_RMSE=590.8749
+  Window 20: best_iter=271, train_RMSE=527.9409, valid_RMSE=706.9001
+  Window 21: best_iter=341, train_RMSE=471.0858, valid_RMSE=691.4285
+--> Trial mean valid RMSE: 675.0754, mean train RMSE: 476.5990
+
+==== Trial 34 ====
+Params:
+  objective: regression
+  metric: rmse
+  verbosity: -1
+  boosting_type: gbdt
+  seed: 42
+  n_jobs: -1
+  learning_rate: 0.022575125746926612
+  num_leaves: 127
+  max_depth: 7
+  min_data_in_leaf: 25
+  feature_fraction: 0.6387292437484664
+  bagging_fraction: 0.9360680534349977
+  bagging_freq: 0
+  lambda_l1: 0.0009103415880409768
+  lambda_l2: 5.535452139321364e-05
+  Window 01: best_iter=181, train_RMSE=399.5857, valid_RMSE=859.1610
+  Window 02: best_iter=209, train_RMSE=414.4775, valid_RMSE=639.1385
+  Window 03: best_iter=142, train_RMSE=472.6444, valid_RMSE=876.7955
+  Window 04: best_iter=149, train_RMSE=463.6718, valid_RMSE=722.0873
+  Window 05: best_iter=151, train_RMSE=464.3502, valid_RMSE=804.4192
+  Window 06: best_iter=1520, train_RMSE=159.3666, valid_RMSE=643.0843
+  Window 07: best_iter=102, train_RMSE=567.9303, valid_RMSE=776.1827
+  Window 08: best_iter=102, train_RMSE=572.7068, valid_RMSE=791.8949
+  Window 09: best_iter=352, train_RMSE=325.4479, valid_RMSE=645.5075
+  Window 10: best_iter=239, train_RMSE=386.7889, valid_RMSE=809.2217
+  Window 11: best_iter=599, train_RMSE=248.8727, valid_RMSE=500.8886
+  Window 12: best_iter=917, train_RMSE=189.2185, valid_RMSE=410.6857
+  Window 13: best_iter=3403, train_RMSE=78.6856, valid_RMSE=604.1696
+  Window 14: best_iter=798, train_RMSE=218.1385, valid_RMSE=674.8528
+  Window 15: best_iter=618, train_RMSE=249.8697, valid_RMSE=700.1257
+  Window 16: best_iter=217, train_RMSE=414.5858, valid_RMSE=617.1374
+  Window 17: best_iter=192, train_RMSE=442.8724, valid_RMSE=702.3795
+  Window 18: best_iter=342, train_RMSE=351.5686, valid_RMSE=470.7314
+  Window 19: best_iter=143, train_RMSE=495.4365, valid_RMSE=613.9997
+  Window 20: best_iter=183, train_RMSE=439.5314, valid_RMSE=710.3354
+  Window 21: best_iter=175, train_RMSE=438.9095, valid_RMSE=691.7663
+--> Trial mean valid RMSE: 679.2650, mean train RMSE: 371.1742
+
+==== Trial 35 ====
+Params:
+  objective: regression
+  metric: rmse
+  verbosity: -1
+  boosting_type: gbdt
+  seed: 42
+  n_jobs: -1
+  learning_rate: 0.032711113362348075
+  num_leaves: 93
+  max_depth: 5
+  min_data_in_leaf: 265
+  feature_fraction: 0.6977675695397567
+  bagging_fraction: 0.8744721243384981
+  bagging_freq: 1
+  lambda_l1: 0.011727186266431341
+  lambda_l2: 0.0003645085491625791
+  Window 01: best_iter=75, train_RMSE=705.3375, valid_RMSE=895.4860
+  Window 02: best_iter=170, train_RMSE=629.7859, valid_RMSE=673.8508
+  Window 03: best_iter=93, train_RMSE=711.4586, valid_RMSE=850.2833
+  Window 04: best_iter=205, train_RMSE=625.2133, valid_RMSE=739.5794
+  Window 05: best_iter=481, train_RMSE=539.2144, valid_RMSE=797.1061
+  Window 06: best_iter=2334, train_RMSE=353.3910, valid_RMSE=660.5579
+  Window 07: best_iter=82, train_RMSE=747.6569, valid_RMSE=797.0261
+  Window 08: best_iter=69, train_RMSE=773.3088, valid_RMSE=817.6466
+  Window 09: best_iter=331, train_RMSE=602.4939, valid_RMSE=711.0529
+  Window 10: best_iter=294, train_RMSE=621.5421, valid_RMSE=841.4208
+  Window 11: best_iter=1850, train_RMSE=386.9660, valid_RMSE=499.4897
+  Window 12: best_iter=975, train_RMSE=458.9460, valid_RMSE=491.3145
+  Window 13: best_iter=3328, train_RMSE=290.9439, valid_RMSE=626.9719
+  Window 14: best_iter=81, train_RMSE=758.6552, valid_RMSE=729.3010
+  Window 15: best_iter=1126, train_RMSE=447.3787, valid_RMSE=707.1756
+  Window 16: best_iter=249, train_RMSE=626.9666, valid_RMSE=620.8109
+  Window 17: best_iter=136, train_RMSE=688.7862, valid_RMSE=745.2077
+  Window 18: best_iter=222, train_RMSE=630.8458, valid_RMSE=485.2762
+  Window 19: best_iter=342, train_RMSE=573.9988, valid_RMSE=573.3904
+  Window 20: best_iter=258, train_RMSE=591.3801, valid_RMSE=709.3425
+  Window 21: best_iter=520, train_RMSE=515.1270, valid_RMSE=708.4271
+--> Trial mean valid RMSE: 699.0818, mean train RMSE: 584.7332
+
+==== Trial 36 ====
+Params:
+  objective: regression
+  metric: rmse
+  verbosity: -1
+  boosting_type: gbdt
+  seed: 42
+  n_jobs: -1
+  learning_rate: 0.015495579290450217
+  num_leaves: 138
+  max_depth: 9
+  min_data_in_leaf: 39
+  feature_fraction: 0.6424836531124943
+  bagging_fraction: 0.9998094992479094
+  bagging_freq: 1
+  lambda_l1: 1.630330926122684e-05
+  lambda_l2: 1.1210808184337945e-05
+  Window 01: best_iter=168, train_RMSE=468.5441, valid_RMSE=860.1128
+  Window 02: best_iter=287, train_RMSE=396.9073, valid_RMSE=658.9378
+  Window 03: best_iter=182, train_RMSE=480.8913, valid_RMSE=859.5390
+  Window 04: best_iter=277, train_RMSE=400.2388, valid_RMSE=721.7456
+  Window 05: best_iter=223, train_RMSE=431.6784, valid_RMSE=808.6273
+  Window 06: best_iter=1632, train_RMSE=180.9493, valid_RMSE=618.2477
+  Window 07: best_iter=152, train_RMSE=536.6615, valid_RMSE=764.8611
+  Window 08: best_iter=143, train_RMSE=551.7379, valid_RMSE=786.5820
+  Window 09: best_iter=500, train_RMSE=307.3027, valid_RMSE=633.9084
+  Window 10: best_iter=318, train_RMSE=389.6519, valid_RMSE=827.6290
+  Window 11: best_iter=1090, train_RMSE=217.2126, valid_RMSE=476.9791
+  Window 12: best_iter=1042, train_RMSE=214.7634, valid_RMSE=438.0110
+  Window 13: best_iter=1738, train_RMSE=158.2408, valid_RMSE=602.4179
+  Window 14: best_iter=412, train_RMSE=334.5259, valid_RMSE=699.9137
+  Window 15: best_iter=932, train_RMSE=235.1316, valid_RMSE=708.9449
+  Window 16: best_iter=269, train_RMSE=417.0361, valid_RMSE=629.8000
+  Window 17: best_iter=402, train_RMSE=355.9567, valid_RMSE=702.3051
+  Window 18: best_iter=336, train_RMSE=382.3789, valid_RMSE=506.4276
+  Window 19: best_iter=221, train_RMSE=449.5458, valid_RMSE=623.8703
+  Window 20: best_iter=260, train_RMSE=413.6183, valid_RMSE=705.6055
+  Window 21: best_iter=209, train_RMSE=453.3988, valid_RMSE=685.7516
+--> Trial mean valid RMSE: 681.9151, mean train RMSE: 370.3034
+
+==== Trial 37 ====
+Params:
+  objective: regression
+  metric: rmse
+  verbosity: -1
+  boosting_type: gbdt
+  seed: 42
+  n_jobs: -1
+  learning_rate: 0.02509636145139233
+  num_leaves: 59
+  max_depth: 15
+  min_data_in_leaf: 153
+  feature_fraction: 0.7006370428783895
+  bagging_fraction: 0.9408973433865042
+  bagging_freq: 0
+  lambda_l1: 0.0001976544148536886
+  lambda_l2: 0.0010985105677031887
+  Window 01: best_iter=107, train_RMSE=596.4029, valid_RMSE=883.5966
+  Window 02: best_iter=171, train_RMSE=529.9479, valid_RMSE=650.4489
+  Window 03: best_iter=100, train_RMSE=644.7584, valid_RMSE=860.9558
+  Window 04: best_iter=157, train_RMSE=561.6614, valid_RMSE=739.7067
+  Window 05: best_iter=211, train_RMSE=508.5550, valid_RMSE=805.7093
+  Window 06: best_iter=820, train_RMSE=317.8395, valid_RMSE=656.6406
+  Window 07: best_iter=96, train_RMSE=669.6932, valid_RMSE=777.4320
+  Window 08: best_iter=84, train_RMSE=702.6006, valid_RMSE=807.4601
+  Window 09: best_iter=1696, train_RMSE=224.0643, valid_RMSE=667.0953
+  Window 10: best_iter=175, train_RMSE=564.9502, valid_RMSE=811.1486
+  Window 11: best_iter=493, train_RMSE=382.0308, valid_RMSE=476.1931
+  Window 12: best_iter=695, train_RMSE=327.9816, valid_RMSE=506.4402
+  Window 13: best_iter=2798, train_RMSE=157.9794, valid_RMSE=637.2042
+  Window 14: best_iter=122, train_RMSE=631.3517, valid_RMSE=711.4593
+  Window 15: best_iter=366, train_RMSE=421.0272, valid_RMSE=734.5773
+  Window 16: best_iter=377, train_RMSE=421.3595, valid_RMSE=611.7375
+  Window 17: best_iter=148, train_RMSE=594.1524, valid_RMSE=715.9037
+  Window 18: best_iter=280, train_RMSE=472.6606, valid_RMSE=509.2909
+  Window 19: best_iter=159, train_RMSE=569.8115, valid_RMSE=572.6841
+  Window 20: best_iter=242, train_RMSE=474.2432, valid_RMSE=691.7607
+  Window 21: best_iter=248, train_RMSE=468.0485, valid_RMSE=685.5905
+--> Trial mean valid RMSE: 691.0969, mean train RMSE: 487.6724
+
+==== Trial 38 ====
+Params:
+  objective: regression
+  metric: rmse
+  verbosity: -1
+  boosting_type: gbdt
+  seed: 42
+  n_jobs: -1
+  learning_rate: 0.020699355773651205
+  num_leaves: 93
+  max_depth: 3
+  min_data_in_leaf: 53
+  feature_fraction: 0.6679949630593335
+  bagging_fraction: 0.8776785223975031
+  bagging_freq: 0
+  lambda_l1: 0.011605047287210618
+  lambda_l2: 3.1261838504925453e-06
+  Window 01: best_iter=302, train_RMSE=597.3031, valid_RMSE=881.6687
+  Window 02: best_iter=406, train_RMSE=587.9959, valid_RMSE=656.2556
+  Window 03: best_iter=140, train_RMSE=729.1870, valid_RMSE=856.4457
+  Window 04: best_iter=599, train_RMSE=575.2619, valid_RMSE=717.4476
+  Window 05: best_iter=404, train_RMSE=615.0525, valid_RMSE=797.5712
+  Window 06: best_iter=1467, train_RMSE=465.1113, valid_RMSE=706.9969
+  Window 07: best_iter=726, train_RMSE=566.7850, valid_RMSE=789.4351
+  Window 08: best_iter=216, train_RMSE=699.8718, valid_RMSE=804.4905
+  Window 09: best_iter=1661, train_RMSE=455.2016, valid_RMSE=689.3837
+  Window 10: best_iter=611, train_RMSE=598.2520, valid_RMSE=792.7918
+  Window 11: best_iter=1056, train_RMSE=526.1914, valid_RMSE=460.4024
+  Window 12: best_iter=2836, train_RMSE=356.9484, valid_RMSE=408.6520
+  Window 13: best_iter=4972, train_RMSE=283.4062, valid_RMSE=640.8495
+  Window 14: best_iter=875, train_RMSE=537.0929, valid_RMSE=699.5331
+  Window 15: best_iter=699, train_RMSE=566.2635, valid_RMSE=689.9325
+  Window 16: best_iter=422, train_RMSE=633.8283, valid_RMSE=653.5473
+  Window 17: best_iter=334, train_RMSE=662.8992, valid_RMSE=702.2924
+  Window 18: best_iter=711, train_RMSE=553.3608, valid_RMSE=508.8693
+  Window 19: best_iter=354, train_RMSE=632.5192, valid_RMSE=595.9085
+  Window 20: best_iter=535, train_RMSE=565.1645, valid_RMSE=724.7244
+  Window 21: best_iter=859, train_RMSE=491.4300, valid_RMSE=667.0746
+--> Trial mean valid RMSE: 687.8225, mean train RMSE: 557.1013
+
+==== Trial 39 ====
+Params:
+  objective: regression
+  metric: rmse
+  verbosity: -1
+  boosting_type: gbdt
+  seed: 42
+  n_jobs: -1
+  learning_rate: 0.028779441442451138
+  num_leaves: 55
+  max_depth: 5
+  min_data_in_leaf: 85
+  feature_fraction: 0.7280243434392486
+  bagging_fraction: 0.9210172739330901
+  bagging_freq: 1
+  lambda_l1: 8.461112985916951e-05
+  lambda_l2: 0.00011727595473764775
+  Window 01: best_iter=134, train_RMSE=556.9594, valid_RMSE=881.2776
+  Window 02: best_iter=239, train_RMSE=511.7601, valid_RMSE=650.1654
+  Window 03: best_iter=115, train_RMSE=622.0155, valid_RMSE=858.6210
+  Window 04: best_iter=597, train_RMSE=410.8837, valid_RMSE=717.1680
+  Window 05: best_iter=187, train_RMSE=556.6536, valid_RMSE=811.8520
+  Window 06: best_iter=2052, train_RMSE=268.2687, valid_RMSE=644.0880
+  Window 07: best_iter=150, train_RMSE=604.8077, valid_RMSE=787.1218
+  Window 08: best_iter=85, train_RMSE=699.3377, valid_RMSE=799.5264
+  Window 09: best_iter=280, train_RMSE=535.1414, valid_RMSE=700.7754
+  Window 10: best_iter=307, train_RMSE=523.6394, valid_RMSE=815.1169
+  Window 11: best_iter=540, train_RMSE=453.3276, valid_RMSE=448.8213
+  Window 12: best_iter=926, train_RMSE=359.9110, valid_RMSE=491.3871
+  Window 13: best_iter=2409, train_RMSE=234.1987, valid_RMSE=616.9482
+  Window 14: best_iter=286, train_RMSE=523.8157, valid_RMSE=703.0325
+  Window 15: best_iter=886, train_RMSE=379.0077, valid_RMSE=714.8180
+  Window 16: best_iter=199, train_RMSE=590.1898, valid_RMSE=626.0889
+  Window 17: best_iter=178, train_RMSE=596.2810, valid_RMSE=717.4036
+  Window 18: best_iter=365, train_RMSE=510.8723, valid_RMSE=486.4809
+  Window 19: best_iter=185, train_RMSE=580.4356, valid_RMSE=580.7502
+  Window 20: best_iter=175, train_RMSE=576.1357, valid_RMSE=706.5100
+  Window 21: best_iter=417, train_RMSE=450.3558, valid_RMSE=666.2445
+--> Trial mean valid RMSE: 686.8665, mean train RMSE: 502.0951
+
+==== Trial 40 ====
+Params:
+  objective: regression
+  metric: rmse
+  verbosity: -1
+  boosting_type: gbdt
+  seed: 42
+  n_jobs: -1
+  learning_rate: 0.01211652161097691
+  num_leaves: 33
+  max_depth: 9
+  min_data_in_leaf: 41
+  feature_fraction: 0.628547342860527
+  bagging_fraction: 0.9626638750383152
+  bagging_freq: 0
+  lambda_l1: 0.011918981812919031
+  lambda_l2: 0.0034017904814864753
+  Window 01: best_iter=329, train_RMSE=435.8734, valid_RMSE=864.3890
+  Window 02: best_iter=360, train_RMSE=435.9579, valid_RMSE=645.9540
+  Window 03: best_iter=244, train_RMSE=527.4374, valid_RMSE=842.8998
+  Window 04: best_iter=329, train_RMSE=463.7107, valid_RMSE=714.3970
+  Window 05: best_iter=284, train_RMSE=497.2170, valid_RMSE=813.3702
+  Window 06: best_iter=2355, train_RMSE=191.1277, valid_RMSE=636.4889
+  Window 07: best_iter=216, train_RMSE=575.5751, valid_RMSE=774.2097
+  Window 08: best_iter=202, train_RMSE=591.2058, valid_RMSE=797.9042
+  Window 09: best_iter=564, train_RMSE=374.5608, valid_RMSE=637.8293
+  Window 10: best_iter=427, train_RMSE=428.7217, valid_RMSE=818.5670
+  Window 11: best_iter=1000, train_RMSE=288.6260, valid_RMSE=452.7752
+  Window 12: best_iter=1809, train_RMSE=209.8301, valid_RMSE=415.7409
+  Window 13: best_iter=1861, train_RMSE=196.5636, valid_RMSE=599.6019
+  Window 14: best_iter=1599, train_RMSE=219.8799, valid_RMSE=665.0834
+  Window 15: best_iter=920, train_RMSE=296.9949, valid_RMSE=699.3325
+  Window 16: best_iter=374, train_RMSE=459.7314, valid_RMSE=621.7666
+  Window 17: best_iter=579, train_RMSE=373.0035, valid_RMSE=694.8759
+  Window 18: best_iter=437, train_RMSE=427.0368, valid_RMSE=498.0497
+  Window 19: best_iter=313, train_RMSE=488.3761, valid_RMSE=620.1423
+  Window 20: best_iter=375, train_RMSE=437.9855, valid_RMSE=709.3941
+  Window 21: best_iter=605, train_RMSE=343.0202, valid_RMSE=678.0015
+--> Trial mean valid RMSE: 676.2273, mean train RMSE: 393.4493
+
+==== Trial 41 ====
+Params:
+  objective: regression
+  metric: rmse
+  verbosity: -1
+  boosting_type: gbdt
+  seed: 42
+  n_jobs: -1
+  learning_rate: 0.012954109673176313
+  num_leaves: 28
+  max_depth: 11
+  min_data_in_leaf: 38
+  feature_fraction: 0.6256555625582249
+  bagging_fraction: 0.9681281506581618
+  bagging_freq: 0
+  lambda_l1: 0.16194120275069918
+  lambda_l2: 0.0036933316368808044
+  Window 01: best_iter=299, train_RMSE=449.7111, valid_RMSE=861.2536
+  Window 02: best_iter=343, train_RMSE=436.1047, valid_RMSE=649.5848
+  Window 03: best_iter=215, train_RMSE=555.2690, valid_RMSE=846.9035
+  Window 04: best_iter=297, train_RMSE=478.2626, valid_RMSE=711.4088
+  Window 05: best_iter=299, train_RMSE=484.5430, valid_RMSE=809.8284
+  Window 06: best_iter=2542, train_RMSE=170.5386, valid_RMSE=628.2862
+  Window 07: best_iter=215, train_RMSE=571.3224, valid_RMSE=779.8374
+  Window 08: best_iter=175, train_RMSE=620.4152, valid_RMSE=800.6039
+  Window 09: best_iter=558, train_RMSE=364.0963, valid_RMSE=636.8483
+  Window 10: best_iter=614, train_RMSE=345.7676, valid_RMSE=825.2706
+  Window 11: best_iter=1073, train_RMSE=265.6054, valid_RMSE=446.8928
+  Window 12: best_iter=1068, train_RMSE=256.1336, valid_RMSE=437.4707
+  Window 13: best_iter=2690, train_RMSE=150.7526, valid_RMSE=593.3274
+  Window 14: best_iter=1286, train_RMSE=230.7333, valid_RMSE=678.5919
+  Window 15: best_iter=975, train_RMSE=274.6909, valid_RMSE=700.9407
+  Window 16: best_iter=354, train_RMSE=458.8075, valid_RMSE=608.3422
+  Window 17: best_iter=385, train_RMSE=437.7047, valid_RMSE=702.5305
+  Window 18: best_iter=498, train_RMSE=390.9104, valid_RMSE=494.7890
+  Window 19: best_iter=347, train_RMSE=451.9068, valid_RMSE=617.5983
+  Window 20: best_iter=336, train_RMSE=449.5396, valid_RMSE=711.3608
+  Window 21: best_iter=442, train_RMSE=386.1442, valid_RMSE=677.0429
+--> Trial mean valid RMSE: 677.0816, mean train RMSE: 391.8552
+
+==== Trial 42 ====
+Params:
+  objective: regression
+  metric: rmse
+  verbosity: -1
+  boosting_type: gbdt
+  seed: 42
+  n_jobs: -1
+  learning_rate: 0.010726113734464708
+  num_leaves: 35
+  max_depth: 11
+  min_data_in_leaf: 39
+  feature_fraction: 0.6569818418876965
+  bagging_fraction: 0.9655025271572497
+  bagging_freq: 1
+  lambda_l1: 0.08999736613210646
+  lambda_l2: 3.2360606820729104e-05
+  Window 01: best_iter=360, train_RMSE=422.7422, valid_RMSE=857.9378
+  Window 02: best_iter=414, train_RMSE=413.4594, valid_RMSE=632.9073
+  Window 03: best_iter=284, train_RMSE=502.7659, valid_RMSE=861.4696
+  Window 04: best_iter=399, train_RMSE=429.4188, valid_RMSE=714.5486
+  Window 05: best_iter=320, train_RMSE=484.9565, valid_RMSE=807.3763
+  Window 06: best_iter=2978, train_RMSE=155.3848, valid_RMSE=626.7462
+  Window 07: best_iter=228, train_RMSE=579.1247, valid_RMSE=772.0483
+  Window 08: best_iter=210, train_RMSE=601.5732, valid_RMSE=787.3942
+  Window 09: best_iter=583, train_RMSE=364.4770, valid_RMSE=639.8965
+  Window 10: best_iter=480, train_RMSE=406.1087, valid_RMSE=826.3044
+  Window 11: best_iter=1099, train_RMSE=258.1594, valid_RMSE=457.2558
+  Window 12: best_iter=1639, train_RMSE=203.6795, valid_RMSE=410.8183
+  Window 13: best_iter=2416, train_RMSE=158.6220, valid_RMSE=593.0433
+  Window 14: best_iter=1701, train_RMSE=197.5457, valid_RMSE=689.1578
+  Window 15: best_iter=954, train_RMSE=276.6758, valid_RMSE=704.3157
+  Window 16: best_iter=593, train_RMSE=358.5822, valid_RMSE=622.3105
+  Window 17: best_iter=405, train_RMSE=442.0706, valid_RMSE=703.5516
+  Window 18: best_iter=478, train_RMSE=407.9719, valid_RMSE=494.9381
+  Window 19: best_iter=432, train_RMSE=422.9661, valid_RMSE=613.2356
+  Window 20: best_iter=405, train_RMSE=424.9005, valid_RMSE=705.1444
+  Window 21: best_iter=644, train_RMSE=328.6316, valid_RMSE=685.8301
+--> Trial mean valid RMSE: 676.4872, mean train RMSE: 373.3246
+
+==== Trial 43 ====
+Params:
+  objective: regression
+  metric: rmse
+  verbosity: -1
+  boosting_type: gbdt
+  seed: 42
+  n_jobs: -1
+  learning_rate: 0.010035785765060194
+  num_leaves: 34
+  max_depth: 11
+  min_data_in_leaf: 38
+  feature_fraction: 0.6222080173977358
+  bagging_fraction: 0.9757462520873506
+  bagging_freq: 0
+  lambda_l1: 0.22121448092974366
+  lambda_l2: 1.641848973084458e-05
+  Window 01: best_iter=468, train_RMSE=386.7270, valid_RMSE=860.8797
+  Window 02: best_iter=437, train_RMSE=418.6034, valid_RMSE=634.7166
+  Window 03: best_iter=301, train_RMSE=508.5912, valid_RMSE=849.7906
+  Window 04: best_iter=394, train_RMSE=449.7859, valid_RMSE=715.6635
+  Window 05: best_iter=340, train_RMSE=490.8002, valid_RMSE=808.0808
+  Window 06: best_iter=2307, train_RMSE=192.1177, valid_RMSE=625.4644
+  Window 07: best_iter=249, train_RMSE=575.8509, valid_RMSE=774.6656
+  Window 08: best_iter=210, train_RMSE=623.0393, valid_RMSE=795.1216
+  Window 09: best_iter=718, train_RMSE=340.8407, valid_RMSE=636.0724
+  Window 10: best_iter=494, train_RMSE=417.2122, valid_RMSE=815.9840
+  Window 11: best_iter=1287, train_RMSE=251.1663, valid_RMSE=450.6056
+  Window 12: best_iter=1486, train_RMSE=227.2714, valid_RMSE=437.9320
+  Window 13: best_iter=2486, train_RMSE=168.2316, valid_RMSE=591.4892
+  Window 14: best_iter=1699, train_RMSE=207.7992, valid_RMSE=670.0108
+  Window 15: best_iter=758, train_RMSE=326.4037, valid_RMSE=702.0616
+  Window 16: best_iter=534, train_RMSE=395.9544, valid_RMSE=618.8251
+  Window 17: best_iter=409, train_RMSE=459.4753, valid_RMSE=707.8731
+  Window 18: best_iter=550, train_RMSE=392.1723, valid_RMSE=488.4446
+  Window 19: best_iter=550, train_RMSE=385.8173, valid_RMSE=610.6363
+  Window 20: best_iter=445, train_RMSE=418.6507, valid_RMSE=709.7468
+  Window 21: best_iter=395, train_RMSE=443.9458, valid_RMSE=685.3970
+--> Trial mean valid RMSE: 675.6886, mean train RMSE: 384.7836
+
+==== Trial 44 ====
+Params:
+  objective: regression
+  metric: rmse
+  verbosity: -1
+  boosting_type: gbdt
+  seed: 42
+  n_jobs: -1
+  learning_rate: 0.010839816414937583
+  num_leaves: 16
+  max_depth: 13
+  min_data_in_leaf: 57
+  feature_fraction: 0.6550515249601702
+  bagging_fraction: 0.9802993290569038
+  bagging_freq: 2
+  lambda_l1: 0.38680759438094614
+  lambda_l2: 7.189980048706045e-06
+  Window 01: best_iter=496, train_RMSE=461.6664, valid_RMSE=868.6221
+  Window 02: best_iter=612, train_RMSE=449.2301, valid_RMSE=654.2984
+  Window 03: best_iter=258, train_RMSE=621.2326, valid_RMSE=855.1047
+  Window 04: best_iter=512, train_RMSE=488.1749, valid_RMSE=709.0205
+  Window 05: best_iter=412, train_RMSE=532.1023, valid_RMSE=806.4614
+  Window 06: best_iter=3367, train_RMSE=246.6500, valid_RMSE=641.4138
+  Window 07: best_iter=342, train_RMSE=584.5115, valid_RMSE=790.3151
+  Window 08: best_iter=202, train_RMSE=698.5955, valid_RMSE=809.2609
+  Window 09: best_iter=857, train_RMSE=433.5070, valid_RMSE=647.0384
+  Window 10: best_iter=503, train_RMSE=519.6112, valid_RMSE=826.5998
+  Window 11: best_iter=1046, train_RMSE=402.6157, valid_RMSE=452.6166
+  Window 12: best_iter=2514, train_RMSE=264.7221, valid_RMSE=441.9404
+  Window 13: best_iter=3080, train_RMSE=234.1189, valid_RMSE=575.2787
+  Window 14: best_iter=242, train_RMSE=666.4911, valid_RMSE=731.5016
+  Window 15: best_iter=1234, train_RMSE=371.4187, valid_RMSE=677.6906
+  Window 16: best_iter=458, train_RMSE=526.5776, valid_RMSE=615.1632
+  Window 17: best_iter=408, train_RMSE=551.3002, valid_RMSE=703.5790
+  Window 18: best_iter=783, train_RMSE=443.8634, valid_RMSE=492.8490
+  Window 19: best_iter=547, train_RMSE=490.7414, valid_RMSE=588.8520
+  Window 20: best_iter=727, train_RMSE=431.0661, valid_RMSE=708.2975
+  Window 21: best_iter=721, train_RMSE=420.9204, valid_RMSE=664.5208
+--> Trial mean valid RMSE: 679.0678, mean train RMSE: 468.5294
+
+==== Trial 45 ====
+Params:
+  objective: regression
+  metric: rmse
+  verbosity: -1
+  boosting_type: gbdt
+  seed: 42
+  n_jobs: -1
+  learning_rate: 0.012139815147753488
+  num_leaves: 37
+  max_depth: 11
+  min_data_in_leaf: 38
+  feature_fraction: 0.6739823253270756
+  bagging_fraction: 0.9639927520976229
+  bagging_freq: 0
+  lambda_l1: 0.03783089613200226
+  lambda_l2: 3.28091220361057e-07
+  Window 01: best_iter=338, train_RMSE=406.1732, valid_RMSE=862.3668
+  Window 02: best_iter=361, train_RMSE=409.9721, valid_RMSE=632.7278
+  Window 03: best_iter=264, train_RMSE=483.2392, valid_RMSE=847.8304
+  Window 04: best_iter=288, train_RMSE=465.7905, valid_RMSE=715.1771
+  Window 05: best_iter=277, train_RMSE=482.8215, valid_RMSE=808.3251
+  Window 06: best_iter=2177, train_RMSE=168.6872, valid_RMSE=636.5334
+  Window 07: best_iter=224, train_RMSE=544.9687, valid_RMSE=768.1961
+  Window 08: best_iter=183, train_RMSE=595.5677, valid_RMSE=794.3175
+  Window 09: best_iter=582, train_RMSE=334.0420, valid_RMSE=634.3512
+  Window 10: best_iter=424, train_RMSE=397.9791, valid_RMSE=832.0257
+  Window 11: best_iter=858, train_RMSE=270.8368, valid_RMSE=451.4498
+  Window 12: best_iter=690, train_RMSE=297.5566, valid_RMSE=424.9136
+  Window 13: best_iter=2095, train_RMSE=159.2120, valid_RMSE=596.2691
+  Window 14: best_iter=1302, train_RMSE=208.2127, valid_RMSE=693.4206
+  Window 15: best_iter=889, train_RMSE=264.9813, valid_RMSE=702.9980
+  Window 16: best_iter=399, train_RMSE=410.8885, valid_RMSE=624.3651
+  Window 17: best_iter=317, train_RMSE=457.4955, valid_RMSE=706.0995
+  Window 18: best_iter=484, train_RMSE=372.8887, valid_RMSE=489.8830
+  Window 19: best_iter=313, train_RMSE=459.4958, valid_RMSE=620.9672
+  Window 20: best_iter=358, train_RMSE=413.0857, valid_RMSE=702.9911
+  Window 21: best_iter=530, train_RMSE=330.7474, valid_RMSE=678.2613
+--> Trial mean valid RMSE: 677.3081, mean train RMSE: 377.8401
+
+==== Trial 46 ====
+Params:
+  objective: regression
+  metric: rmse
+  verbosity: -1
+  boosting_type: gbdt
+  seed: 42
+  n_jobs: -1
+  learning_rate: 0.014364287049272912
+  num_leaves: 20
+  max_depth: 12
+  min_data_in_leaf: 55
+  feature_fraction: 0.614316728017922
+  bagging_fraction: 0.9934156176754594
+  bagging_freq: 1
+  lambda_l1: 0.017212002965092527
+  lambda_l2: 2.1748205827719945e-05
+  Window 01: best_iter=425, train_RMSE=412.4405, valid_RMSE=859.9303
+  Window 02: best_iter=343, train_RMSE=468.8017, valid_RMSE=650.1633
+  Window 03: best_iter=186, train_RMSE=606.9566, valid_RMSE=852.6109
+  Window 04: best_iter=408, train_RMSE=446.4688, valid_RMSE=713.2961
+  Window 05: best_iter=328, train_RMSE=494.5608, valid_RMSE=811.0757
+  Window 06: best_iter=2605, train_RMSE=212.7066, valid_RMSE=635.6295
+  Window 07: best_iter=214, train_RMSE=599.7640, valid_RMSE=778.7427
+  Window 08: best_iter=152, train_RMSE=675.7761, valid_RMSE=803.1097
+  Window 09: best_iter=489, train_RMSE=436.9880, valid_RMSE=641.9535
+  Window 10: best_iter=434, train_RMSE=456.8252, valid_RMSE=832.2846
+  Window 11: best_iter=816, train_RMSE=359.5950, valid_RMSE=455.4692
+  Window 12: best_iter=1812, train_RMSE=235.6271, valid_RMSE=433.2295
+  Window 13: best_iter=2359, train_RMSE=202.4186, valid_RMSE=571.5867
+  Window 14: best_iter=618, train_RMSE=387.6415, valid_RMSE=703.4516
+  Window 15: best_iter=905, train_RMSE=333.5855, valid_RMSE=677.8691
+  Window 16: best_iter=311, train_RMSE=520.3730, valid_RMSE=622.3181
+  Window 17: best_iter=326, train_RMSE=508.3578, valid_RMSE=695.1757
+  Window 18: best_iter=378, train_RMSE=482.1228, valid_RMSE=512.1426
+  Window 19: best_iter=397, train_RMSE=467.3895, valid_RMSE=577.8418
+  Window 20: best_iter=467, train_RMSE=421.3461, valid_RMSE=708.5357
+  Window 21: best_iter=332, train_RMSE=482.4349, valid_RMSE=672.5466
+--> Trial mean valid RMSE: 676.6173, mean train RMSE: 438.6752
+
+==== Trial 47 ====
+Params:
+  objective: regression
+  metric: rmse
+  verbosity: -1
+  boosting_type: gbdt
+  seed: 42
+  n_jobs: -1
+  learning_rate: 0.0178298775538233
+  num_leaves: 33
+  max_depth: 10
+  min_data_in_leaf: 128
+  feature_fraction: 0.6856265227286069
+  bagging_fraction: 0.9609972320617448
+  bagging_freq: 0
+  lambda_l1: 6.829458625252019
+  lambda_l2: 0.00012620915431170896
+  Window 01: best_iter=145, train_RMSE=587.2849, valid_RMSE=876.7768
+  Window 02: best_iter=260, train_RMSE=509.4399, valid_RMSE=657.3157
+  Window 03: best_iter=148, train_RMSE=619.4364, valid_RMSE=873.1391
+  Window 04: best_iter=222, train_RMSE=549.4178, valid_RMSE=726.4225
+  Window 05: best_iter=290, train_RMSE=506.7294, valid_RMSE=815.8895
+  Window 06: best_iter=463, train_RMSE=458.8825, valid_RMSE=667.8943
+  Window 07: best_iter=150, train_RMSE=633.7273, valid_RMSE=768.8599
+  Window 08: best_iter=123, train_RMSE=678.6091, valid_RMSE=807.3211
+  Window 09: best_iter=272, train_RMSE=538.9477, valid_RMSE=674.7190
+  Window 10: best_iter=253, train_RMSE=554.0278, valid_RMSE=830.8505
+  Window 11: best_iter=638, train_RMSE=411.4294, valid_RMSE=460.9180
+  Window 12: best_iter=625, train_RMSE=406.1260, valid_RMSE=482.7879
+  Window 13: best_iter=2315, train_RMSE=230.6176, valid_RMSE=623.8987
+  Window 14: best_iter=155, train_RMSE=637.8331, valid_RMSE=718.4637
+  Window 15: best_iter=691, train_RMSE=391.8037, valid_RMSE=711.5693
+  Window 16: best_iter=290, train_RMSE=522.2746, valid_RMSE=612.6227
+  Window 17: best_iter=223, train_RMSE=572.0763, valid_RMSE=722.1053
+  Window 18: best_iter=321, train_RMSE=509.9123, valid_RMSE=521.1189
+  Window 19: best_iter=224, train_RMSE=560.1288, valid_RMSE=575.2817
+  Window 20: best_iter=420, train_RMSE=456.7028, valid_RMSE=690.5464
+  Window 21: best_iter=330, train_RMSE=481.5220, valid_RMSE=668.2519
+--> Trial mean valid RMSE: 689.8454, mean train RMSE: 515.0919
+
+==== Trial 48 ====
+Params:
+  objective: regression
+  metric: rmse
+  verbosity: -1
+  boosting_type: gbdt
+  seed: 42
+  n_jobs: -1
+  learning_rate: 0.010207577079542637
+  num_leaves: 24
+  max_depth: 9
+  min_data_in_leaf: 71
+  feature_fraction: 0.6537432664044673
+  bagging_fraction: 0.9490099569495675
+  bagging_freq: 1
+  lambda_l1: 0.004976092976012692
+  lambda_l2: 0.0005158497190660163
+  Window 01: best_iter=338, train_RMSE=511.7910, valid_RMSE=876.4533
+  Window 02: best_iter=568, train_RMSE=445.1249, valid_RMSE=652.6949
+  Window 03: best_iter=287, train_RMSE=580.6053, valid_RMSE=847.9987
+  Window 04: best_iter=570, train_RMSE=458.9182, valid_RMSE=710.6886
+  Window 05: best_iter=379, train_RMSE=533.3223, valid_RMSE=816.0287
+  Window 06: best_iter=2280, train_RMSE=278.4290, valid_RMSE=641.1583
+  Window 07: best_iter=261, train_RMSE=620.6521, valid_RMSE=784.1740
+  Window 08: best_iter=228, train_RMSE=655.2233, valid_RMSE=799.3980
+  Window 09: best_iter=778, train_RMSE=426.0143, valid_RMSE=658.5122
+  Window 10: best_iter=480, train_RMSE=512.6971, valid_RMSE=837.7547
+  Window 11: best_iter=1308, train_RMSE=345.3949, valid_RMSE=440.4062
+  Window 12: best_iter=987, train_RMSE=373.7674, valid_RMSE=465.5029
+  Window 13: best_iter=4153, train_RMSE=185.4853, valid_RMSE=590.2952
+  Window 14: best_iter=1065, train_RMSE=364.0126, valid_RMSE=704.1003
+  Window 15: best_iter=1006, train_RMSE=378.6863, valid_RMSE=700.9552
+  Window 16: best_iter=573, train_RMSE=475.3952, valid_RMSE=611.7999
+  Window 17: best_iter=439, train_RMSE=525.4929, valid_RMSE=707.4600
+  Window 18: best_iter=739, train_RMSE=439.9263, valid_RMSE=499.3507
+  Window 19: best_iter=535, train_RMSE=478.1541, valid_RMSE=579.0545
+  Window 20: best_iter=511, train_RMSE=476.7001, valid_RMSE=706.4623
+  Window 21: best_iter=673, train_RMSE=428.4301, valid_RMSE=670.1439
+--> Trial mean valid RMSE: 680.9711, mean train RMSE: 452.1058
+
+==== Trial 49 ====
+Params:
+  objective: regression
+  metric: rmse
+  verbosity: -1
+  boosting_type: gbdt
+  seed: 42
+  n_jobs: -1
+  learning_rate: 0.01262041850849052
+  num_leaves: 40
+  max_depth: 13
+  min_data_in_leaf: 486
+  feature_fraction: 0.6223797577653393
+  bagging_fraction: 0.9810476472760188
+  bagging_freq: 2
+  lambda_l1: 0.29198210036572914
+  lambda_l2: 1.779133009366683e-06
+  Window 01: best_iter=311, train_RMSE=676.7690, valid_RMSE=892.1608
+  Window 02: best_iter=1860, train_RMSE=457.5798, valid_RMSE=632.2029
+  Window 03: best_iter=250, train_RMSE=741.0281, valid_RMSE=846.0269
+  Window 04: best_iter=363, train_RMSE=691.4661, valid_RMSE=779.1646
+  Window 05: best_iter=1271, train_RMSE=525.0107, valid_RMSE=797.8254
+  Window 06: best_iter=4115, train_RMSE=381.4809, valid_RMSE=680.8151
+  Window 07: best_iter=265, train_RMSE=749.6325, valid_RMSE=803.7620
+  Window 08: best_iter=195, train_RMSE=786.8823, valid_RMSE=811.3491
+  Window 09: best_iter=3364, train_RMSE=417.9652, valid_RMSE=669.1474
+  Window 10: best_iter=678, train_RMSE=640.4349, valid_RMSE=832.2168
+  Window 11: best_iter=4082, train_RMSE=388.8195, valid_RMSE=525.3974
+  Window 12: best_iter=2782, train_RMSE=429.3199, valid_RMSE=484.8214
+  Window 13: best_iter=4990, train_RMSE=349.2198, valid_RMSE=650.0771
+  Window 14: best_iter=238, train_RMSE=772.5776, valid_RMSE=731.1993
+  Window 15: best_iter=1214, train_RMSE=543.9554, valid_RMSE=726.8498
+  Window 16: best_iter=2074, train_RMSE=471.3227, valid_RMSE=623.2161
+  Window 17: best_iter=318, train_RMSE=720.6820, valid_RMSE=763.9001
+  Window 18: best_iter=636, train_RMSE=622.1682, valid_RMSE=508.4230
+  Window 19: best_iter=911, train_RMSE=569.8244, valid_RMSE=573.6211
+  Window 20: best_iter=772, train_RMSE=578.0627, valid_RMSE=708.0367
+  Window 21: best_iter=784, train_RMSE=567.0205, valid_RMSE=680.7724
+--> Trial mean valid RMSE: 700.9993, mean train RMSE: 575.2963
+
+==== Trial 50 ====
+Params:
+  objective: regression
+  metric: rmse
+  verbosity: -1
+  boosting_type: gbdt
+  seed: 42
+  n_jobs: -1
+  learning_rate: 0.011692691541400811
+  num_leaves: 47
+  max_depth: 12
+  min_data_in_leaf: 23
+  feature_fraction: 0.7061134355649719
+  bagging_fraction: 0.8764777199586894
+  bagging_freq: 2
+  lambda_l1: 2.2889634570647077
+  lambda_l2: 1.648412566291914e-07
+  Window 01: best_iter=800, train_RMSE=216.6050, valid_RMSE=849.7469
+  Window 02: best_iter=353, train_RMSE=371.3965, valid_RMSE=638.3500
+  Window 03: best_iter=219, train_RMSE=501.5311, valid_RMSE=867.9917
+  Window 04: best_iter=318, train_RMSE=400.8024, valid_RMSE=719.4494
+  Window 05: best_iter=258, train_RMSE=462.2672, valid_RMSE=808.4206
+  Window 06: best_iter=1650, train_RMSE=148.6331, valid_RMSE=623.1436
+  Window 07: best_iter=206, train_RMSE=536.9491, valid_RMSE=773.7124
+  Window 08: best_iter=204, train_RMSE=534.9411, valid_RMSE=789.0205
+  Window 09: best_iter=568, train_RMSE=283.2087, valid_RMSE=626.7194
+  Window 10: best_iter=503, train_RMSE=307.1669, valid_RMSE=807.3968
+  Window 11: best_iter=646, train_RMSE=256.0103, valid_RMSE=500.0753
+  Window 12: best_iter=1321, train_RMSE=160.4121, valid_RMSE=414.0777
+  Window 13: best_iter=2401, train_RMSE=101.3147, valid_RMSE=604.8521
+  Window 14: best_iter=769, train_RMSE=224.6519, valid_RMSE=673.8224
+  Window 15: best_iter=973, train_RMSE=196.6121, valid_RMSE=718.6348
+  Window 16: best_iter=466, train_RMSE=322.9050, valid_RMSE=607.6608
+  Window 17: best_iter=418, train_RMSE=350.5762, valid_RMSE=719.3324
+  Window 18: best_iter=464, train_RMSE=329.2340, valid_RMSE=497.3733
+  Window 19: best_iter=341, train_RMSE=395.3420, valid_RMSE=623.6479
+  Window 20: best_iter=413, train_RMSE=338.9597, valid_RMSE=723.2466
+  Window 21: best_iter=377, train_RMSE=358.3186, valid_RMSE=686.4910
+--> Trial mean valid RMSE: 679.6746, mean train RMSE: 323.7066
+
+==== Trial 51 ====
+Params:
+  objective: regression
+  metric: rmse
+  verbosity: -1
+  boosting_type: gbdt
+  seed: 42
+  n_jobs: -1
+  learning_rate: 0.01427211946577444
+  num_leaves: 19
+  max_depth: 12
+  min_data_in_leaf: 54
+  feature_fraction: 0.6204482529980543
+  bagging_fraction: 0.9860781058935233
+  bagging_freq: 1
+  lambda_l1: 0.04352696907525005
+  lambda_l2: 3.723565608814384e-05
+  Window 01: best_iter=477, train_RMSE=401.3843, valid_RMSE=858.9932
+  Window 02: best_iter=344, train_RMSE=474.4069, valid_RMSE=658.5241
+  Window 03: best_iter=186, train_RMSE=613.8304, valid_RMSE=859.4874
+  Window 04: best_iter=319, train_RMSE=504.2957, valid_RMSE=709.7073
+  Window 05: best_iter=346, train_RMSE=490.8502, valid_RMSE=810.9037
+  Window 06: best_iter=1989, train_RMSE=252.3096, valid_RMSE=634.4384
+  Window 07: best_iter=225, train_RMSE=594.8930, valid_RMSE=781.1838
+  Window 08: best_iter=153, train_RMSE=680.9512, valid_RMSE=806.8790
+  Window 09: best_iter=493, train_RMSE=447.4447, valid_RMSE=639.3201
+  Window 10: best_iter=411, train_RMSE=478.9413, valid_RMSE=840.6746
+  Window 11: best_iter=859, train_RMSE=359.0116, valid_RMSE=454.4904
+  Window 12: best_iter=1635, train_RMSE=256.3483, valid_RMSE=432.0848
+  Window 13: best_iter=3361, train_RMSE=169.1868, valid_RMSE=574.5366
+  Window 14: best_iter=641, train_RMSE=389.7545, valid_RMSE=701.3699
+  Window 15: best_iter=1137, train_RMSE=311.8147, valid_RMSE=673.2065
+  Window 16: best_iter=324, train_RMSE=516.1120, valid_RMSE=620.5658
+  Window 17: best_iter=341, train_RMSE=506.4054, valid_RMSE=698.9482
+  Window 18: best_iter=491, train_RMSE=446.9967, valid_RMSE=506.6876
+  Window 19: best_iter=383, train_RMSE=481.7169, valid_RMSE=580.4303
+  Window 20: best_iter=607, train_RMSE=390.6283, valid_RMSE=705.3520
+  Window 21: best_iter=341, train_RMSE=484.3043, valid_RMSE=671.1483
+--> Trial mean valid RMSE: 677.0920, mean train RMSE: 440.5517
+
+==== Trial 52 ====
+Params:
+  objective: regression
+  metric: rmse
+  verbosity: -1
+  boosting_type: gbdt
+  seed: 42
+  n_jobs: -1
+  learning_rate: 0.014040522523615664
+  num_leaves: 21
+  max_depth: 10
+  min_data_in_leaf: 40
+  feature_fraction: 0.6009708551062739
+  bagging_fraction: 0.9988729918348712
+  bagging_freq: 0
+  lambda_l1: 0.04563888356506087
+  lambda_l2: 1.5515551850469994e-05
+  Window 01: best_iter=236, train_RMSE=519.4746, valid_RMSE=865.5623
+  Window 02: best_iter=323, train_RMSE=471.2309, valid_RMSE=648.3840
+  Window 03: best_iter=186, train_RMSE=602.3130, valid_RMSE=843.9742
+  Window 04: best_iter=259, train_RMSE=532.4220, valid_RMSE=714.7032
+  Window 05: best_iter=260, train_RMSE=538.5116, valid_RMSE=809.6934
+  Window 06: best_iter=1972, train_RMSE=233.7741, valid_RMSE=628.8826
+  Window 07: best_iter=203, train_RMSE=605.8764, valid_RMSE=787.5103
+  Window 08: best_iter=169, train_RMSE=648.4170, valid_RMSE=800.9006
+  Window 09: best_iter=543, train_RMSE=401.7256, valid_RMSE=638.6836
+  Window 10: best_iter=629, train_RMSE=383.1274, valid_RMSE=834.5418
+  Window 11: best_iter=1018, train_RMSE=311.3638, valid_RMSE=448.3969
+  Window 12: best_iter=1476, train_RMSE=247.5874, valid_RMSE=416.5971
+  Window 13: best_iter=1778, train_RMSE=218.2778, valid_RMSE=592.7614
+  Window 14: best_iter=636, train_RMSE=363.0057, valid_RMSE=679.7174
+  Window 15: best_iter=1027, train_RMSE=296.6432, valid_RMSE=695.5701
+  Window 16: best_iter=335, train_RMSE=491.8269, valid_RMSE=611.9308
+  Window 17: best_iter=328, train_RMSE=500.2829, valid_RMSE=700.7885
+  Window 18: best_iter=706, train_RMSE=364.4500, valid_RMSE=495.5339
+  Window 19: best_iter=378, train_RMSE=461.0809, valid_RMSE=604.9529
+  Window 20: best_iter=346, train_RMSE=467.2322, valid_RMSE=703.2277
+  Window 21: best_iter=478, train_RMSE=400.3956, valid_RMSE=658.1405
+--> Trial mean valid RMSE: 675.2597, mean train RMSE: 431.3819
+
+==== Trial 53 ====
+Params:
+  objective: regression
+  metric: rmse
+  verbosity: -1
+  boosting_type: gbdt
+  seed: 42
+  n_jobs: -1
+  learning_rate: 0.01726587973005509
+  num_leaves: 25
+  max_depth: 10
+  min_data_in_leaf: 39
+  feature_fraction: 0.6054447825094313
+  bagging_fraction: 0.9763292777391966
+  bagging_freq: 0
+  lambda_l1: 0.05777181472774864
+  lambda_l2: 1.0919962652454593e-05
+  Window 01: best_iter=249, train_RMSE=442.3462, valid_RMSE=867.5769
+  Window 02: best_iter=261, train_RMSE=450.1727, valid_RMSE=645.8321
+  Window 03: best_iter=168, train_RMSE=557.4509, valid_RMSE=836.0715
+  Window 04: best_iter=226, train_RMSE=496.5912, valid_RMSE=718.9425
+  Window 05: best_iter=217, train_RMSE=511.6914, valid_RMSE=810.4269
+  Window 06: best_iter=2131, train_RMSE=179.6356, valid_RMSE=629.1022
+  Window 07: best_iter=151, train_RMSE=601.6234, valid_RMSE=780.9855
+  Window 08: best_iter=129, train_RMSE=641.7645, valid_RMSE=797.4180
+  Window 09: best_iter=363, train_RMSE=411.7777, valid_RMSE=645.0990
+  Window 10: best_iter=301, train_RMSE=452.1803, valid_RMSE=821.3171
+  Window 11: best_iter=761, train_RMSE=294.5173, valid_RMSE=446.0056
+  Window 12: best_iter=778, train_RMSE=280.9662, valid_RMSE=416.3961
+  Window 13: best_iter=1681, train_RMSE=182.2364, valid_RMSE=606.4378
+  Window 14: best_iter=931, train_RMSE=254.6178, valid_RMSE=668.5638
+  Window 15: best_iter=604, train_RMSE=318.0555, valid_RMSE=699.6184
+  Window 16: best_iter=266, train_RMSE=474.7109, valid_RMSE=622.7230
+  Window 17: best_iter=254, train_RMSE=488.0357, valid_RMSE=708.1819
+  Window 18: best_iter=316, train_RMSE=440.3499, valid_RMSE=489.4205
+  Window 19: best_iter=303, train_RMSE=440.0789, valid_RMSE=614.3100
+  Window 20: best_iter=271, train_RMSE=455.2114, valid_RMSE=703.9322
+  Window 21: best_iter=388, train_RMSE=376.9134, valid_RMSE=668.2862
+--> Trial mean valid RMSE: 676.0308, mean train RMSE: 416.7108
+
+==== Trial 54 ====
+Params:
+  objective: regression
+  metric: rmse
+  verbosity: -1
+  boosting_type: gbdt
+  seed: 42
+  n_jobs: -1
+  learning_rate: 0.01843207048239503
+  num_leaves: 24
+  max_depth: 10
+  min_data_in_leaf: 43
+  feature_fraction: 0.601843128160015
+  bagging_fraction: 0.9996712733728385
+  bagging_freq: 0
+  lambda_l1: 0.9727797266461756
+  lambda_l2: 5.212442045099817e-06
+  Window 01: best_iter=232, train_RMSE=451.3530, valid_RMSE=866.0551
+  Window 02: best_iter=246, train_RMSE=457.6928, valid_RMSE=643.0927
+  Window 03: best_iter=166, train_RMSE=551.1728, valid_RMSE=846.4441
+  Window 04: best_iter=208, train_RMSE=510.2129, valid_RMSE=712.7604
+  Window 05: best_iter=174, train_RMSE=552.4859, valid_RMSE=811.7485
+  Window 06: best_iter=2089, train_RMSE=181.8916, valid_RMSE=629.9588
+  Window 07: best_iter=140, train_RMSE=611.5156, valid_RMSE=782.5771
+  Window 08: best_iter=125, train_RMSE=639.3860, valid_RMSE=795.6533
+  Window 09: best_iter=376, train_RMSE=403.8617, valid_RMSE=650.6436
+  Window 10: best_iter=565, train_RMSE=336.8373, valid_RMSE=804.4185
+  Window 11: best_iter=604, train_RMSE=327.6011, valid_RMSE=450.2105
+  Window 12: best_iter=774, train_RMSE=281.7879, valid_RMSE=421.0249
+  Window 13: best_iter=1796, train_RMSE=178.6583, valid_RMSE=593.9748
+  Window 14: best_iter=436, train_RMSE=364.1589, valid_RMSE=677.7974
+  Window 15: best_iter=612, train_RMSE=317.1964, valid_RMSE=685.1586
+  Window 16: best_iter=293, train_RMSE=447.2523, valid_RMSE=621.8087
+  Window 17: best_iter=259, train_RMSE=478.2954, valid_RMSE=699.5218
+  Window 18: best_iter=306, train_RMSE=445.6721, valid_RMSE=491.5619
+  Window 19: best_iter=294, train_RMSE=439.8431, valid_RMSE=612.9799
+  Window 20: best_iter=277, train_RMSE=446.2573, valid_RMSE=718.3876
+  Window 21: best_iter=369, train_RMSE=385.6696, valid_RMSE=670.2185
+--> Trial mean valid RMSE: 675.5236, mean train RMSE: 419.4668
+
+==== Trial 55 ====
+Params:
+  objective: regression
+  metric: rmse
+  verbosity: -1
+  boosting_type: gbdt
+  seed: 42
+  n_jobs: -1
+  learning_rate: 0.01862578992135884
+  num_leaves: 24
+  max_depth: 10
+  min_data_in_leaf: 33
+  feature_fraction: 0.6003119002679103
+  bagging_fraction: 0.9986044065516481
+  bagging_freq: 0
+  lambda_l1: 1.0436616846890392
+  lambda_l2: 6.499576523302769e-06
+  Window 01: best_iter=194, train_RMSE=478.4900, valid_RMSE=862.0277
+  Window 02: best_iter=246, train_RMSE=451.3686, valid_RMSE=647.4039
+  Window 03: best_iter=173, train_RMSE=534.7856, valid_RMSE=839.8156
+  Window 04: best_iter=209, train_RMSE=500.1960, valid_RMSE=719.3093
+  Window 05: best_iter=184, train_RMSE=531.0944, valid_RMSE=808.1581
+  Window 06: best_iter=2644, train_RMSE=142.8233, valid_RMSE=630.9052
+  Window 07: best_iter=140, train_RMSE=601.5692, valid_RMSE=782.3707
+  Window 08: best_iter=122, train_RMSE=636.4004, valid_RMSE=796.6930
+  Window 09: best_iter=451, train_RMSE=360.6265, valid_RMSE=638.1009
+  Window 10: best_iter=357, train_RMSE=397.0947, valid_RMSE=816.4724
+  Window 11: best_iter=1191, train_RMSE=221.4332, valid_RMSE=463.3884
+  Window 12: best_iter=412, train_RMSE=356.5127, valid_RMSE=406.0637
+  Window 13: best_iter=1151, train_RMSE=210.7696, valid_RMSE=577.7243
+  Window 14: best_iter=366, train_RMSE=381.0291, valid_RMSE=675.7127
+  Window 15: best_iter=512, train_RMSE=330.4228, valid_RMSE=706.0313
+  Window 16: best_iter=244, train_RMSE=478.7607, valid_RMSE=620.9595
+  Window 17: best_iter=273, train_RMSE=451.7712, valid_RMSE=702.7502
+  Window 18: best_iter=271, train_RMSE=457.4070, valid_RMSE=497.7519
+  Window 19: best_iter=308, train_RMSE=421.3304, valid_RMSE=612.0791
+  Window 20: best_iter=260, train_RMSE=443.6348, valid_RMSE=712.3362
+  Window 21: best_iter=398, train_RMSE=351.9886, valid_RMSE=680.8963
+--> Trial mean valid RMSE: 676.0453, mean train RMSE: 416.1671
+
+==== Trial 56 ====
+Params:
+  objective: regression
+  metric: rmse
+  verbosity: -1
+  boosting_type: gbdt
+  seed: 42
+  n_jobs: -1
+  learning_rate: 0.021738391416566145
+  num_leaves: 18
+  max_depth: 10
+  min_data_in_leaf: 95
+  feature_fraction: 0.6123732084787384
+  bagging_fraction: 0.980553679602288
+  bagging_freq: 0
+  lambda_l1: 0.5504752131248851
+  lambda_l2: 1.4240507615966916e-06
+  Window 01: best_iter=208, train_RMSE=499.5677, valid_RMSE=868.1111
+  Window 02: best_iter=243, train_RMSE=494.3331, valid_RMSE=654.7743
+  Window 03: best_iter=176, train_RMSE=560.0597, valid_RMSE=845.1833
+  Window 04: best_iter=365, train_RMSE=443.8730, valid_RMSE=712.7843
+  Window 05: best_iter=319, train_RMSE=471.6735, valid_RMSE=820.9683
+  Window 06: best_iter=1814, train_RMSE=254.0718, valid_RMSE=660.8981
+  Window 07: best_iter=122, train_RMSE=657.4646, valid_RMSE=783.2886
+  Window 08: best_iter=102, train_RMSE=699.6708, valid_RMSE=807.1242
+  Window 09: best_iter=341, train_RMSE=479.1467, valid_RMSE=661.2805
+  Window 10: best_iter=275, train_RMSE=517.2386, valid_RMSE=835.7524
+  Window 11: best_iter=579, train_RMSE=402.7002, valid_RMSE=449.3421
+  Window 12: best_iter=656, train_RMSE=371.8272, valid_RMSE=471.4567
+  Window 13: best_iter=2119, train_RMSE=219.0224, valid_RMSE=587.0811
+  Window 14: best_iter=351, train_RMSE=464.7526, valid_RMSE=703.3603
+  Window 15: best_iter=696, train_RMSE=371.2791, valid_RMSE=687.3738
+  Window 16: best_iter=268, train_RMSE=517.7725, valid_RMSE=609.9234
+  Window 17: best_iter=248, train_RMSE=526.4280, valid_RMSE=703.9327
+  Window 18: best_iter=356, train_RMSE=475.9907, valid_RMSE=504.6253
+  Window 19: best_iter=296, train_RMSE=490.2087, valid_RMSE=578.7954
+  Window 20: best_iter=274, train_RMSE=486.3022, valid_RMSE=706.5751
+  Window 21: best_iter=404, train_RMSE=431.1723, valid_RMSE=654.5633
+--> Trial mean valid RMSE: 681.2950, mean train RMSE: 468.3122
+
+==== Trial 57 ====
+Params:
+  objective: regression
+  metric: rmse
+  verbosity: -1
+  boosting_type: gbdt
+  seed: 42
+  n_jobs: -1
+  learning_rate: 0.02495277336829629
+  num_leaves: 27
+  max_depth: 8
+  min_data_in_leaf: 66
+  feature_fraction: 0.6355078143716094
+  bagging_fraction: 0.6056470054581536
+  bagging_freq: 0
+  lambda_l1: 0.03377524342460256
+  lambda_l2: 1.3396515267201699e-05
+  Window 01: best_iter=354, train_RMSE=367.9271, valid_RMSE=874.9451
+  Window 02: best_iter=167, train_RMSE=498.8454, valid_RMSE=651.6533
+  Window 03: best_iter=146, train_RMSE=529.5369, valid_RMSE=854.0832
+  Window 04: best_iter=315, train_RMSE=406.0300, valid_RMSE=718.4921
+  Window 05: best_iter=145, train_RMSE=533.9817, valid_RMSE=815.3691
+  Window 06: best_iter=1577, train_RMSE=209.2396, valid_RMSE=645.2607
+  Window 07: best_iter=102, train_RMSE=622.5053, valid_RMSE=787.5881
+  Window 08: best_iter=81, train_RMSE=679.4673, valid_RMSE=805.9916
+  Window 09: best_iter=283, train_RMSE=440.8471, valid_RMSE=652.1915
+  Window 10: best_iter=200, train_RMSE=498.1745, valid_RMSE=845.1517
+  Window 11: best_iter=437, train_RMSE=377.3917, valid_RMSE=460.5627
+  Window 12: best_iter=827, train_RMSE=278.9784, valid_RMSE=451.2077
+  Window 13: best_iter=876, train_RMSE=262.1028, valid_RMSE=595.3579
+  Window 14: best_iter=289, train_RMSE=424.6240, valid_RMSE=700.7781
+  Window 15: best_iter=664, train_RMSE=300.6742, valid_RMSE=704.3457
+  Window 16: best_iter=182, train_RMSE=516.3087, valid_RMSE=607.3407
+  Window 17: best_iter=201, train_RMSE=497.4324, valid_RMSE=707.0692
+  Window 18: best_iter=191, train_RMSE=511.1288, valid_RMSE=485.9536
+  Window 19: best_iter=200, train_RMSE=491.6791, valid_RMSE=580.1032
+  Window 20: best_iter=262, train_RMSE=434.7867, valid_RMSE=706.6742
+  Window 21: best_iter=348, train_RMSE=382.2890, valid_RMSE=679.2141
+--> Trial mean valid RMSE: 682.3492, mean train RMSE: 441.1405
+
+==== Trial 58 ====
+Params:
+  objective: regression
+  metric: rmse
+  verbosity: -1
+  boosting_type: gbdt
+  seed: 42
+  n_jobs: -1
+  learning_rate: 0.015393273037543337
+  num_leaves: 23
+  max_depth: 11
+  min_data_in_leaf: 20
+  feature_fraction: 0.6761842425446594
+  bagging_fraction: 0.9384361488736673
+  bagging_freq: 2
+  lambda_l1: 0.000533352816950057
+  lambda_l2: 6.875202749055402e-05
+  Window 01: best_iter=278, train_RMSE=438.2237, valid_RMSE=863.4552
+  Window 02: best_iter=361, train_RMSE=397.3316, valid_RMSE=613.6405
+  Window 03: best_iter=184, train_RMSE=558.3277, valid_RMSE=862.5874
+  Window 04: best_iter=206, train_RMSE=536.0186, valid_RMSE=738.7790
+  Window 05: best_iter=228, train_RMSE=518.9407, valid_RMSE=807.0195
+  Window 06: best_iter=2195, train_RMSE=161.1681, valid_RMSE=626.5862
+  Window 07: best_iter=169, train_RMSE=603.9187, valid_RMSE=781.6228
+  Window 08: best_iter=165, train_RMSE=605.8080, valid_RMSE=795.2795
+  Window 09: best_iter=589, train_RMSE=330.6590, valid_RMSE=629.5241
+  Window 10: best_iter=761, train_RMSE=287.6526, valid_RMSE=795.7396
+  Window 11: best_iter=721, train_RMSE=294.2437, valid_RMSE=458.6982
+  Window 12: best_iter=671, train_RMSE=293.3219, valid_RMSE=414.7411
+  Window 13: best_iter=1738, train_RMSE=168.0750, valid_RMSE=575.4973
+  Window 14: best_iter=952, train_RMSE=244.8401, valid_RMSE=638.9480
+  Window 15: best_iter=504, train_RMSE=347.7934, valid_RMSE=704.3948
+  Window 16: best_iter=440, train_RMSE=371.3818, valid_RMSE=616.5006
+  Window 17: best_iter=272, train_RMSE=482.7752, valid_RMSE=711.0169
+  Window 18: best_iter=341, train_RMSE=435.2518, valid_RMSE=492.2536
+  Window 19: best_iter=301, train_RMSE=451.9374, valid_RMSE=613.6008
+  Window 20: best_iter=275, train_RMSE=462.0923, valid_RMSE=719.9006
+  Window 21: best_iter=373, train_RMSE=384.7397, valid_RMSE=681.9270
+--> Trial mean valid RMSE: 673.4149, mean train RMSE: 398.7858
+
+==== Trial 59 ====
+Params:
+  objective: regression
+  metric: rmse
+  verbosity: -1
+  boosting_type: gbdt
+  seed: 42
+  n_jobs: -1
+  learning_rate: 0.014255885633771937
+  num_leaves: 21
+  max_depth: 11
+  min_data_in_leaf: 21
+  feature_fraction: 0.6838743371240731
+  bagging_fraction: 0.9414725851146155
+  bagging_freq: 2
+  lambda_l1: 0.000770561344199786
+  lambda_l2: 7.770704384946737e-05
+  Window 01: best_iter=333, train_RMSE=427.5088, valid_RMSE=862.2091
+  Window 02: best_iter=355, train_RMSE=429.5016, valid_RMSE=620.4566
+  Window 03: best_iter=190, train_RMSE=581.1600, valid_RMSE=859.3695
+  Window 04: best_iter=259, train_RMSE=513.2892, valid_RMSE=735.4226
+  Window 05: best_iter=273, train_RMSE=507.0481, valid_RMSE=815.2581
+  Window 06: best_iter=2882, train_RMSE=151.9296, valid_RMSE=624.8969
+  Window 07: best_iter=205, train_RMSE=588.5878, valid_RMSE=783.7929
+  Window 08: best_iter=171, train_RMSE=627.1186, valid_RMSE=800.4321
+  Window 09: best_iter=753, train_RMSE=320.8027, valid_RMSE=628.1007
+  Window 10: best_iter=459, train_RMSE=407.6526, valid_RMSE=798.8202
+  Window 11: best_iter=734, train_RMSE=320.6289, valid_RMSE=454.2944
+  Window 12: best_iter=2478, train_RMSE=154.0533, valid_RMSE=401.5532
+  Window 13: best_iter=3592, train_RMSE=117.0044, valid_RMSE=564.4313
+  Window 14: best_iter=695, train_RMSE=313.9238, valid_RMSE=636.6907
+  Window 15: best_iter=548, train_RMSE=360.8409, valid_RMSE=699.7925
+  Window 16: best_iter=810, train_RMSE=301.5635, valid_RMSE=603.2898
+  Window 17: best_iter=325, train_RMSE=475.1254, valid_RMSE=697.6771
+  Window 18: best_iter=393, train_RMSE=436.3695, valid_RMSE=485.2567
+  Window 19: best_iter=336, train_RMSE=462.6242, valid_RMSE=611.2157
+  Window 20: best_iter=519, train_RMSE=356.4628, valid_RMSE=718.0934
+  Window 21: best_iter=330, train_RMSE=447.9381, valid_RMSE=679.9125
+--> Trial mean valid RMSE: 670.5222, mean train RMSE: 395.2921
+
+==== BEST TRIAL ====
+Trial #59
+Value (mean valid RMSE): 670.522204
+Best params:
+  learning_rate: 0.014255885633771937
+  num_leaves: 21
+  max_depth: 11
+  min_data_in_leaf: 21
+  feature_fraction: 0.6838743371240731
+  bagging_fraction: 0.9414725851146155
+  bagging_freq: 2
+  lambda_l1: 0.000770561344199786
+  lambda_l2: 7.770704384946737e-05
