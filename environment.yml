@@ -1,0 +1,36 @@
+name: Spain_energy
+
+channels:
+  - conda-forge
+
+dependencies:
+  - python=3.11
+  - pip
+  - jupyterlab
+  - ipykernel
+  - numpy
+  - pandas
+  - scipy
+  - scikit-learn
+  - statsmodels
+  - lightgbm
+  - optuna
+  - matplotlib
+  - seaborn
+  - bokeh
+  - pvlib
+  - holidays
+  - tqdm
+  - joblib
+  - dill
+  - geopy
+  - pgeocode
+  - xarray
+  - netcdf4
+  - h5netcdf
+  - cdsapi
+  - ecmwf-datastores-client
+  - tabulate
+  - pip:
+      - loess==2.1.2
+      - suntime==1.3.2
