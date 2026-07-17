@@ -1,4 +1,5 @@
 .DS_Store
+.Rhistory
 __pycache__/
 *.pyc
 .venv/
@@ -6,3 +7,4 @@ venv/
 .env
 *.pkl
 .ipynb_checkpoints/
+data/era5/

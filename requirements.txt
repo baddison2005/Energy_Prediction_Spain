@@ -1,0 +1,38 @@
+# Python 3.11 is recommended. For a fully managed setup, prefer environment.yml.
+
+# Notebook runtime
+jupyterlab
+ipykernel
+
+# Data, statistics, modelling, and tuning
+numpy
+pandas
+scipy
+scikit-learn
+statsmodels
+lightgbm
+optuna
+joblib
+
+# Visualisation and reporting
+matplotlib
+seaborn
+bokeh
+tabulate
+tqdm
+
+# Solar, calendar, smoothing, location, and persistence utilities
+pvlib
+holidays
+loess==2.1.2
+suntime==1.3.2
+pgeocode
+geopy
+dill
+
+# CAMS and ERA5 data access/processing
+ecmwf-datastores-client
+cdsapi
+xarray
+netCDF4
+h5netcdf
